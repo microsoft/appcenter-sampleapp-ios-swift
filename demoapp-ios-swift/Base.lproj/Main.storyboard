@@ -1,26 +1,82 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad12_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="demoapp_ios_swift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="view" contentMode="scaleAspectFit" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ehg-Ru-gN3">
+                                <rect key="frame" x="0.0" y="28" width="1024" height="1193"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4k-ga-bUg">
+                                        <rect key="frame" x="0.0" y="494.5" width="513" height="204"/>
+                                        <color key="backgroundColor" red="1" green="0.74646803385027327" blue="0.65696766210683066" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="204" id="Bjq-SY-0rq"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
+                                        <state key="normal" title="BUTTON 1">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ek-S0-aDs">
+                                        <rect key="frame" x="511" y="494.5" width="513" height="204"/>
+                                        <color key="backgroundColor" red="1" green="0.88000153042596807" blue="0.77274156289835982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
+                                        <state key="normal" title="BUTTON 2">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="1ek-S0-aDs" firstAttribute="leading" secondItem="X4k-ga-bUg" secondAttribute="trailing" constant="-2" id="3XD-1d-TnC"/>
+                                    <constraint firstAttribute="trailing" secondItem="1ek-S0-aDs" secondAttribute="trailing" id="A7A-Ot-qle"/>
+                                    <constraint firstItem="X4k-ga-bUg" firstAttribute="centerY" secondItem="ehg-Ru-gN3" secondAttribute="centerY" id="Eyq-ze-T0o"/>
+                                    <constraint firstItem="1ek-S0-aDs" firstAttribute="height" secondItem="X4k-ga-bUg" secondAttribute="height" id="Pav-L6-Mja"/>
+                                    <constraint firstItem="1ek-S0-aDs" firstAttribute="centerY" secondItem="ehg-Ru-gN3" secondAttribute="centerY" id="s95-TQ-Aj2"/>
+                                    <constraint firstItem="X4k-ga-bUg" firstAttribute="leading" secondItem="ehg-Ru-gN3" secondAttribute="leading" id="sKb-oH-xc0"/>
+                                    <constraint firstItem="1ek-S0-aDs" firstAttribute="width" secondItem="X4k-ga-bUg" secondAttribute="width" id="tM5-4F-6ar"/>
+                                </constraints>
+                            </view>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Mobile Center logo" translatesAutoresizingMaskIntoConstraints="NO" id="G0o-4P-iaC">
+                                <rect key="frame" x="488" y="1229" width="48" height="48"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ehg-Ru-gN3" firstAttribute="centerX" secondItem="G0o-4P-iaC" secondAttribute="centerX" id="0Kc-Rr-EOW"/>
+                            <constraint firstItem="ehg-Ru-gN3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8UD-2s-P8B"/>
+                            <constraint firstItem="G0o-4P-iaC" firstAttribute="top" secondItem="ehg-Ru-gN3" secondAttribute="bottom" constant="8" symbolic="YES" id="Eko-da-4Ps"/>
+                            <constraint firstItem="ehg-Ru-gN3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="IIe-fw-3h0"/>
+                            <constraint firstAttribute="bottom" secondItem="ehg-Ru-gN3" secondAttribute="bottom" constant="145" id="b7P-nv-nfX"/>
+                            <constraint firstAttribute="trailing" secondItem="ehg-Ru-gN3" secondAttribute="trailing" id="lZL-vs-wfd"/>
+                        </constraints>
                     </view>
+                    <modalPageSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="23.188405797101453" y="33.423913043478265"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Mobile Center logo" width="48" height="48"/>
+    </resources>
 </document>
