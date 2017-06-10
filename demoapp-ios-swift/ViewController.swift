@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var crash2Button: UIButton!
     @IBOutlet weak var leftButton: UIButton!
     @IBOutlet weak var rightButton: UIButton!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -51,7 +51,7 @@ class ViewController: UIViewController {
             break
 
         }
-    
+
     }
 
 }
