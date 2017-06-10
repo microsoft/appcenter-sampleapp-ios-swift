@@ -31,17 +31,23 @@
                                             <constraint firstAttribute="height" constant="150" id="Bjq-SY-0rq"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
-                                        <state key="normal" title="BUTTON 1">
+                                        <state key="normal" title="L">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="leftButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jz4-2s-cRc"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ek-S0-aDs">
                                         <rect key="frame" x="186.5" y="172" width="188.5" height="150"/>
                                         <color key="backgroundColor" red="1" green="0.88000153042596807" blue="0.77274156289835982" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
-                                        <state key="normal" title="BUTTON 2">
+                                        <state key="normal" title="R">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="rightButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0g6-Hb-un7"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CJJ-bI-YCz">
                                         <rect key="frame" x="0.0" y="339" width="188.5" height="150"/>
@@ -54,7 +60,18 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="activateCrashWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SuW-Q0-LAH"/>
+                                            <action selector="activateCrash:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KLY-0F-PnP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i29-rQ-1uP">
+                                        <rect key="frame" x="383" y="517.5" width="385" height="150"/>
+                                        <color key="backgroundColor" red="1" green="0.74646803390000005" blue="0.65696766210000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
+                                        <state key="normal" title="CRASH 2">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="activateCrash:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Jg-FI-Znu"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Press the L or R button!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dty-wI-gK8">
@@ -111,8 +128,11 @@
                     </view>
                     <modalPageSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <connections>
-                        <outlet property="crash1Button" destination="CJJ-bI-YCz" id="fbM-86-Vo5"/>
-                        <outlet property="crash2Button" destination="i29-rQ-1uP" id="YU5-GL-Qyb"/>
+                        <outlet property="controlLabel" destination="Dty-wI-gK8" id="ygI-yJ-fnj"/>
+                        <outlet property="crash1Button" destination="CJJ-bI-YCz" id="dHu-87-py6"/>
+                        <outlet property="crash2Button" destination="i29-rQ-1uP" id="XGl-BE-ROq"/>
+                        <outlet property="leftButton" destination="X4k-ga-bUg" id="ODs-F9-Sf8"/>
+                        <outlet property="rightButton" destination="1ek-S0-aDs" id="aUr-hB-Bos"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
