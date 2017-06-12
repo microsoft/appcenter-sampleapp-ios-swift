@@ -243,7 +243,7 @@
 					2695BE151EE8BB27000B07EE = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = L4RARDNZ2Y;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					2695BE291EE8BB27000B07EE = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -603,11 +603,14 @@
 			baseConfigurationReference = 198F13D1170B8314603CD9C8 /* Pods-demoapp-ios-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = L4RARDNZ2Y;
 				INFOPLIST_FILE = "demoapp-ios-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Tina.demoapp-ios-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.azure.mobile.demoapp.swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a39db24e-99e4-49ef-af33-59a5ef1617a7";
+				PROVISIONING_PROFILE_SPECIFIER = "Demo App Swift";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -617,11 +620,14 @@
 			baseConfigurationReference = 725F0663B99B401BCEEAC966 /* Pods-demoapp-ios-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = L4RARDNZ2Y;
 				INFOPLIST_FILE = "demoapp-ios-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Tina.demoapp-ios-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.azure.mobile.demoapp.swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a39db24e-99e4-49ef-af33-59a5ef1617a7";
+				PROVISIONING_PROFILE_SPECIFIER = "Demo App Swift";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
