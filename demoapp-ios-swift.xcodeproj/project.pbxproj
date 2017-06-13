@@ -15,8 +15,10 @@
 		2695BE241EE8BB27000B07EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2695BE221EE8BB27000B07EE /* LaunchScreen.storyboard */; };
 		2695BE2F1EE8BB27000B07EE /* demoapp_ios_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695BE2E1EE8BB27000B07EE /* demoapp_ios_swiftTests.swift */; };
 		2695BE3A1EE8BB27000B07EE /* demoapp_ios_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2695BE391EE8BB27000B07EE /* demoapp_ios_swiftUITests.swift */; };
-		5E297047DDD3A63F89B46B53 /* Pods_demoapp_ios_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1DEE3D3FE6D7F634775DF5 /* Pods_demoapp_ios_swift.framework */; };
 		733978EC1EF065CC00D7EEA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2695BE1D1EE8BB27000B07EE /* Main.storyboard */; };
+		733978F81EF08FB500D7EEA7 /* VSMobileCenterExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 733978F71EF08FB500D7EEA7 /* VSMobileCenterExtensions.framework */; };
+		733978F91EF08FB500D7EEA7 /* VSMobileCenterExtensions.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 733978F71EF08FB500D7EEA7 /* VSMobileCenterExtensions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		733978FD1EF0900000D7EEA7 /* VSMobileCenterExtensions.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 733978FC1EF0900000D7EEA7 /* VSMobileCenterExtensions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D77A9DC8132AF092636CD6BF /* Pods_demoapp_ios_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8140609F9370BFA3CDB90245 /* Pods_demoapp_ios_swiftTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,30 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		733978FA1EF08FB500D7EEA7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				733978F91EF08FB500D7EEA7 /* VSMobileCenterExtensions.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		733978FB1EF08FEC00D7EEA7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				733978FD1EF0900000D7EEA7 /* VSMobileCenterExtensions.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		198F13D1170B8314603CD9C8 /* Pods-demoapp-ios-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demoapp-ios-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-demoapp-ios-swift/Pods-demoapp-ios-swift.debug.xcconfig"; sourceTree = "<group>"; };
 		2695BE161EE8BB27000B07EE /* demoapp-ios-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "demoapp-ios-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +81,12 @@
 		2D8B09FCEE348AE21DA55B10 /* Pods-demoapp-ios-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demoapp-ios-swiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-demoapp-ios-swiftTests/Pods-demoapp-ios-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		4039661F7E8DF85F9A3792CB /* Pods-demoapp-ios-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demoapp-ios-swiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-demoapp-ios-swiftUITests/Pods-demoapp-ios-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		725F0663B99B401BCEEAC966 /* Pods-demoapp-ios-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demoapp-ios-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-demoapp-ios-swift/Pods-demoapp-ios-swift.release.xcconfig"; sourceTree = "<group>"; };
+		733978ED1EF089E300D7EEA7 /* VSMobileCenterExtensions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VSMobileCenterExtensions.framework; path = "Pods/../build/Debug-iphoneos/VSMobileCenterExtensions/VSMobileCenterExtensions.framework"; sourceTree = "<group>"; };
+		733978F21EF08B1200D7EEA7 /* Pods_demoapp_ios_swift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_demoapp_ios_swift.framework; path = "Pods/../build/Debug-iphoneos/Pods_demoapp_ios_swift.framework"; sourceTree = "<group>"; };
+		733978F41EF08D1000D7EEA7 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		733978F71EF08FB500D7EEA7 /* VSMobileCenterExtensions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VSMobileCenterExtensions.framework; path = Carthage/Build/iOS/VSMobileCenterExtensions.framework; sourceTree = "<group>"; };
+		733978FC1EF0900000D7EEA7 /* VSMobileCenterExtensions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VSMobileCenterExtensions.framework; path = Carthage/Build/iOS/VSMobileCenterExtensions.framework; sourceTree = "<group>"; };
+		733978FE1EF0904200D7EEA7 /* VSMobileCenterExtensions.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = VSMobileCenterExtensions.framework.dSYM; path = Carthage/Build/iOS/VSMobileCenterExtensions.framework.dSYM; sourceTree = "<group>"; };
 		8140609F9370BFA3CDB90245 /* Pods_demoapp_ios_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demoapp_ios_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94EB5CE6DCC4461586A39D4D /* Pods-demoapp-ios-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demoapp-ios-swiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-demoapp-ios-swiftUITests/Pods-demoapp-ios-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AB1DEE3D3FE6D7F634775DF5 /* Pods_demoapp_ios_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demoapp_ios_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,7 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E297047DDD3A63F89B46B53 /* Pods_demoapp_ios_swift.framework in Frameworks */,
+				733978F81EF08FB500D7EEA7 /* VSMobileCenterExtensions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +138,9 @@
 		2695BE0D1EE8BB27000B07EE = {
 			isa = PBXGroup;
 			children = (
+				733978FE1EF0904200D7EEA7 /* VSMobileCenterExtensions.framework.dSYM */,
+				733978FC1EF0900000D7EEA7 /* VSMobileCenterExtensions.framework */,
+				733978F71EF08FB500D7EEA7 /* VSMobileCenterExtensions.framework */,
 				2695BE181EE8BB27000B07EE /* demoapp-ios-swift */,
 				2695BE2D1EE8BB27000B07EE /* demoapp-ios-swiftTests */,
 				2695BE381EE8BB27000B07EE /* demoapp-ios-swiftUITests */,
@@ -159,6 +194,9 @@
 		7C02867BC72406C8C934BA0D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				733978F41EF08D1000D7EEA7 /* XcodeKit.framework */,
+				733978F21EF08B1200D7EEA7 /* Pods_demoapp_ios_swift.framework */,
+				733978ED1EF089E300D7EEA7 /* VSMobileCenterExtensions.framework */,
 				AB1DEE3D3FE6D7F634775DF5 /* Pods_demoapp_ios_swift.framework */,
 				8140609F9370BFA3CDB90245 /* Pods_demoapp_ios_swiftTests.framework */,
 				ADB13A9F0119AF6F60EFE0B4 /* Pods_demoapp_ios_swiftUITests.framework */,
@@ -179,6 +217,8 @@
 				2695BE141EE8BB27000B07EE /* Resources */,
 				159F243E5EEFEC1EDDE73FB4 /* [CP] Embed Pods Frameworks */,
 				D23644F1913ABD897799AE87 /* [CP] Copy Pods Resources */,
+				733978FA1EF08FB500D7EEA7 /* Embed Frameworks */,
+				733978FB1EF08FEC00D7EEA7 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -607,6 +647,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = L4RARDNZ2Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/VSMobileCenterExtensions",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "demoapp-ios-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.azure.mobile.demoapp.swift;
@@ -624,6 +670,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = L4RARDNZ2Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/VSMobileCenterExtensions",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "demoapp-ios-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.azure.mobile.demoapp.swift;
