@@ -28,8 +28,24 @@ class demoapp_ios_swiftUITests: XCTestCase {
         super.tearDown()
     }
 
-    func testExample() {
+    func testLButton() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+
+        let app = XCUIApplication()
+        app.buttons["L"].tap()
+        let labelData = app.staticTexts["controlLabel"]
+        XCTAssertNotNil(labelData)
+        XCTAssert(labelData.label == "To the left.")
+    }
+
+    func testRButton() {
+        // Use recording to get started writing UI tests.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+
+        let app = XCUIApplication()
+        app.buttons["R"].tap()
+        let labelData = app.staticTexts["controlLabel"]
+        XCTAssert(labelData.label == "In the right.")
     }
 }
