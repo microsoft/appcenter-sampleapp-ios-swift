@@ -1,0 +1,186 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "demoapp_ios_swiftTests"
+provides-nominal:
+- "C22demoapp_ios_swiftTests22demoapp_ios_swiftTests"
+provides-member:
+- ["C22demoapp_ios_swiftTests22demoapp_ios_swiftTests", ""]
+provides-dynamic-lookup:
+- "setUp"
+- "tearDown"
+- "testExample"
+- "testPerformanceExample"
+depends-top-level:
+- "XCTestCase"
+- "demoapp_ios_swiftTests"
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "measure"]
+- !private ["Ps9AnyObject", "setUp"]
+- !private ["Ps9AnyObject", "tearDown"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "measure"]
+- !private ["Ps7CVarArg", "setUp"]
+- !private ["Ps7CVarArg", "tearDown"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "measure"]
+- !private ["Ps28CustomDebugStringConvertible", "setUp"]
+- !private ["Ps28CustomDebugStringConvertible", "tearDown"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "measure"]
+- !private ["Ps23CustomStringConvertible", "setUp"]
+- !private ["Ps23CustomStringConvertible", "tearDown"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "measure"]
+- !private ["Ps9Equatable", "setUp"]
+- !private ["Ps9Equatable", "tearDown"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "measure"]
+- !private ["Ps8Hashable", "setUp"]
+- !private ["Ps8Hashable", "tearDown"]
+- ["Ps8Hashable", ""]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "measure"]
+- ["CSo8NSObject", "setUp"]
+- ["CSo8NSObject", "tearDown"]
+- ["CSo8NSObject", "testExample"]
+- ["CSo8NSObject", "testPerformanceExample"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "measure"]
+- !private ["PSo16NSObjectProtocol", "setUp"]
+- !private ["PSo16NSObjectProtocol", "tearDown"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo17XCTWaiterDelegate", "init"]
+- !private ["PSo17XCTWaiterDelegate", "measure"]
+- !private ["PSo17XCTWaiterDelegate", "setUp"]
+- !private ["PSo17XCTWaiterDelegate", "tearDown"]
+- ["PSo17XCTWaiterDelegate", ""]
+- ["CSo6XCTest", "init"]
+- !private ["CSo6XCTest", "measure"]
+- ["CSo6XCTest", "setUp"]
+- ["CSo6XCTest", "tearDown"]
+- ["CSo6XCTest", "testExample"]
+- ["CSo6XCTest", "testPerformanceExample"]
+- ["CSo10XCTestCase", "init"]
+- !private ["CSo10XCTestCase", "measure"]
+- ["CSo10XCTestCase", "setUp"]
+- ["CSo10XCTestCase", "tearDown"]
+- ["CSo10XCTestCase", "testExample"]
+- ["CSo10XCTestCase", "testPerformanceExample"]
+- ["CSo10XCTestCase", ""]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "measure"]
+- !private ["Ps9_Hashable", "setUp"]
+- !private ["Ps9_Hashable", "tearDown"]
+- ["Ps9_Hashable", ""]
+- ["C22demoapp_ios_swiftTests22demoapp_ios_swiftTests", "deinit"]
+- ["C22demoapp_ios_swiftTests22demoapp_ios_swiftTests", "init"]
+- !private ["C22demoapp_ios_swiftTests22demoapp_ios_swiftTests", "measure"]
+- ["C22demoapp_ios_swiftTests22demoapp_ios_swiftTests", "setUp"]
+- ["C22demoapp_ios_swiftTests22demoapp_ios_swiftTests", "tearDown"]
+- ["C22demoapp_ios_swiftTests22demoapp_ios_swiftTests", "testExample"]
+- ["C22demoapp_ios_swiftTests22demoapp_ios_swiftTests", "testPerformanceExample"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo17XCTWaiterDelegate"
+- "CSo6XCTest"
+- "CSo10XCTestCase"
+- "Ps9_Hashable"
+- "C22demoapp_ios_swiftTests22demoapp_ios_swiftTests"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/XCTest.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/ddp/Build/Products/Debug-iphoneos/demoapp_ios_swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestProbe.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIDevice.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSDevice.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSService.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterAnalytics.framework/Headers/MSService.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSService.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUISiriService.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSCrashesDelegate.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUICoordinate.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuite.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIRemote.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase+AsynchronousTesting.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSAbstractLog.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSAbstractLog.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSErrorAttachmentLog.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestLog.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSWrapperSdk.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertionsImpl.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIApplication.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTKVOExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTNSPredicateExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTNSNotificationExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTDarwinNotificationExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCaseRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuiteRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypeQueryProvider.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTWaiter.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MobileCenter.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSMobileCenter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservationCenter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObserver.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterAnalytics.framework/Headers/MSAnalytics.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterAnalytics.framework/Headers/MobileCenterAnalytics.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSCrashes.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MobileCenterCrashes.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSLogWithProperties.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSCustomProperties.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementAttributes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertions.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSMobileCenterErrors.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestErrors.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSConstants.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSServiceAbstract.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterAnalytics.framework/Headers/MSServiceAbstract.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSServiceAbstract.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElement.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSErrorReport.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCAbstractTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementQuery.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSErrorAttachmentLog+Utility.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Modules/module.modulemap"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterAnalytics.framework/Modules/module.modulemap"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+interface-hash: "1bbb1ad90ef54b9f38a4e86cfe549b39"

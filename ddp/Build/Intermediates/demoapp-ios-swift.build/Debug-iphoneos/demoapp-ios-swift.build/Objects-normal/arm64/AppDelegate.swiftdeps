@@ -1,0 +1,392 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "C17demoapp_ios_swift11AppDelegate"
+provides-member:
+- ["C17demoapp_ios_swift11AppDelegate", ""]
+provides-dynamic-lookup:
+- "application"
+- "applicationDidBecomeActive"
+- "applicationDidEnterBackground"
+- "applicationWillEnterForeground"
+- "applicationWillResignActive"
+- "applicationWillTerminate"
+- "window"
+depends-top-level:
+- "AppDelegate"
+- !private "Array"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "MSAnalytics"
+- !private "MSCrashes"
+- !private "MSMobileCenter"
+- !private "StringLiteralType"
+- "UIApplication"
+- "UIApplicationDelegate"
+- "UIApplicationLaunchOptionsKey"
+- "UIResponder"
+- "UIWindow"
+depends-member:
+- !private ["Ps9AnyObject", "MSAnalytics"]
+- !private ["Ps9AnyObject", "MSCrashes"]
+- !private ["Ps9AnyObject", "MSMobileCenter"]
+- ["Ps9AnyObject", "application"]
+- ["Ps9AnyObject", "applicationDidBecomeActive"]
+- ["Ps9AnyObject", "applicationDidEnterBackground"]
+- ["Ps9AnyObject", "applicationDidFinishLaunching"]
+- ["Ps9AnyObject", "applicationDidReceiveMemoryWarning"]
+- ["Ps9AnyObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9AnyObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9AnyObject", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9AnyObject", "applicationSignificantTimeChange"]
+- ["Ps9AnyObject", "applicationWillEnterForeground"]
+- ["Ps9AnyObject", "applicationWillResignActive"]
+- ["Ps9AnyObject", "applicationWillTerminate"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "start"]
+- ["Ps9AnyObject", "window"]
+- ["Ps9AnyObject", ""]
+- ["C17demoapp_ios_swift11AppDelegate", "Bool"]
+- !private ["C17demoapp_ios_swift11AppDelegate", "MSAnalytics"]
+- !private ["C17demoapp_ios_swift11AppDelegate", "MSCrashes"]
+- !private ["C17demoapp_ios_swift11AppDelegate", "MSMobileCenter"]
+- ["C17demoapp_ios_swift11AppDelegate", "UIApplication"]
+- ["C17demoapp_ios_swift11AppDelegate", "UIApplicationLaunchOptionsKey"]
+- ["C17demoapp_ios_swift11AppDelegate", "UIWindow"]
+- ["C17demoapp_ios_swift11AppDelegate", "application"]
+- ["C17demoapp_ios_swift11AppDelegate", "applicationDidBecomeActive"]
+- ["C17demoapp_ios_swift11AppDelegate", "applicationDidEnterBackground"]
+- ["C17demoapp_ios_swift11AppDelegate", "applicationDidFinishLaunching"]
+- ["C17demoapp_ios_swift11AppDelegate", "applicationDidReceiveMemoryWarning"]
+- ["C17demoapp_ios_swift11AppDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["C17demoapp_ios_swift11AppDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["C17demoapp_ios_swift11AppDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["C17demoapp_ios_swift11AppDelegate", "applicationSignificantTimeChange"]
+- ["C17demoapp_ios_swift11AppDelegate", "applicationWillEnterForeground"]
+- ["C17demoapp_ios_swift11AppDelegate", "applicationWillResignActive"]
+- ["C17demoapp_ios_swift11AppDelegate", "applicationWillTerminate"]
+- ["C17demoapp_ios_swift11AppDelegate", "deinit"]
+- ["C17demoapp_ios_swift11AppDelegate", "init"]
+- ["C17demoapp_ios_swift11AppDelegate", "window"]
+- !private ["Ps7CVarArg", "MSAnalytics"]
+- !private ["Ps7CVarArg", "MSCrashes"]
+- !private ["Ps7CVarArg", "MSMobileCenter"]
+- ["Ps7CVarArg", "application"]
+- ["Ps7CVarArg", "applicationDidBecomeActive"]
+- ["Ps7CVarArg", "applicationDidEnterBackground"]
+- ["Ps7CVarArg", "applicationDidFinishLaunching"]
+- ["Ps7CVarArg", "applicationDidReceiveMemoryWarning"]
+- ["Ps7CVarArg", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps7CVarArg", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps7CVarArg", "applicationShouldRequestHealthAuthorization"]
+- ["Ps7CVarArg", "applicationSignificantTimeChange"]
+- ["Ps7CVarArg", "applicationWillEnterForeground"]
+- ["Ps7CVarArg", "applicationWillResignActive"]
+- ["Ps7CVarArg", "applicationWillTerminate"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "start"]
+- ["Ps7CVarArg", "window"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "MSAnalytics"]
+- !private ["Ps28CustomDebugStringConvertible", "MSCrashes"]
+- !private ["Ps28CustomDebugStringConvertible", "MSMobileCenter"]
+- ["Ps28CustomDebugStringConvertible", "application"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidEnterBackground"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps28CustomDebugStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps28CustomDebugStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["Ps28CustomDebugStringConvertible", "applicationSignificantTimeChange"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillEnterForeground"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillResignActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillTerminate"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "start"]
+- ["Ps28CustomDebugStringConvertible", "window"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "MSAnalytics"]
+- !private ["Ps23CustomStringConvertible", "MSCrashes"]
+- !private ["Ps23CustomStringConvertible", "MSMobileCenter"]
+- ["Ps23CustomStringConvertible", "application"]
+- ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
+- ["Ps23CustomStringConvertible", "applicationDidEnterBackground"]
+- ["Ps23CustomStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps23CustomStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps23CustomStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps23CustomStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["Ps23CustomStringConvertible", "applicationSignificantTimeChange"]
+- ["Ps23CustomStringConvertible", "applicationWillEnterForeground"]
+- ["Ps23CustomStringConvertible", "applicationWillResignActive"]
+- ["Ps23CustomStringConvertible", "applicationWillTerminate"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "start"]
+- ["Ps23CustomStringConvertible", "window"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "MSAnalytics"]
+- !private ["Ps9Equatable", "MSCrashes"]
+- !private ["Ps9Equatable", "MSMobileCenter"]
+- ["Ps9Equatable", "application"]
+- ["Ps9Equatable", "applicationDidBecomeActive"]
+- ["Ps9Equatable", "applicationDidEnterBackground"]
+- ["Ps9Equatable", "applicationDidFinishLaunching"]
+- ["Ps9Equatable", "applicationDidReceiveMemoryWarning"]
+- ["Ps9Equatable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9Equatable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9Equatable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9Equatable", "applicationSignificantTimeChange"]
+- ["Ps9Equatable", "applicationWillEnterForeground"]
+- ["Ps9Equatable", "applicationWillResignActive"]
+- ["Ps9Equatable", "applicationWillTerminate"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "start"]
+- ["Ps9Equatable", "window"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "MSAnalytics"]
+- !private ["Ps8Hashable", "MSCrashes"]
+- !private ["Ps8Hashable", "MSMobileCenter"]
+- ["Ps8Hashable", "application"]
+- ["Ps8Hashable", "applicationDidBecomeActive"]
+- ["Ps8Hashable", "applicationDidEnterBackground"]
+- ["Ps8Hashable", "applicationDidFinishLaunching"]
+- ["Ps8Hashable", "applicationDidReceiveMemoryWarning"]
+- ["Ps8Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps8Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps8Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps8Hashable", "applicationSignificantTimeChange"]
+- ["Ps8Hashable", "applicationWillEnterForeground"]
+- ["Ps8Hashable", "applicationWillResignActive"]
+- ["Ps8Hashable", "applicationWillTerminate"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "start"]
+- ["Ps8Hashable", "window"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["CSo14MSMobileCenter", "start"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "MSAnalytics"]
+- !private ["CSo8NSObject", "MSCrashes"]
+- !private ["CSo8NSObject", "MSMobileCenter"]
+- ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "UIApplicationLaunchOptionsKey"]
+- ["CSo8NSObject", "UIWindow"]
+- ["CSo8NSObject", "application"]
+- ["CSo8NSObject", "applicationDidBecomeActive"]
+- ["CSo8NSObject", "applicationDidEnterBackground"]
+- ["CSo8NSObject", "applicationDidFinishLaunching"]
+- ["CSo8NSObject", "applicationDidReceiveMemoryWarning"]
+- ["CSo8NSObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo8NSObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo8NSObject", "applicationShouldRequestHealthAuthorization"]
+- ["CSo8NSObject", "applicationSignificantTimeChange"]
+- ["CSo8NSObject", "applicationWillEnterForeground"]
+- ["CSo8NSObject", "applicationWillResignActive"]
+- ["CSo8NSObject", "applicationWillTerminate"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "start"]
+- ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "MSAnalytics"]
+- !private ["PSo16NSObjectProtocol", "MSCrashes"]
+- !private ["PSo16NSObjectProtocol", "MSMobileCenter"]
+- ["PSo16NSObjectProtocol", "application"]
+- ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
+- ["PSo16NSObjectProtocol", "applicationDidFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationDidReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo16NSObjectProtocol", "applicationShouldRequestHealthAuthorization"]
+- ["PSo16NSObjectProtocol", "applicationSignificantTimeChange"]
+- ["PSo16NSObjectProtocol", "applicationWillEnterForeground"]
+- ["PSo16NSObjectProtocol", "applicationWillResignActive"]
+- ["PSo16NSObjectProtocol", "applicationWillTerminate"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "start"]
+- ["PSo16NSObjectProtocol", "window"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo21UIApplicationDelegate", "MSAnalytics"]
+- !private ["PSo21UIApplicationDelegate", "MSCrashes"]
+- !private ["PSo21UIApplicationDelegate", "MSMobileCenter"]
+- ["PSo21UIApplicationDelegate", "application"]
+- ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
+- ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
+- ["PSo21UIApplicationDelegate", "applicationDidFinishLaunching"]
+- ["PSo21UIApplicationDelegate", "applicationDidReceiveMemoryWarning"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo21UIApplicationDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["PSo21UIApplicationDelegate", "applicationSignificantTimeChange"]
+- ["PSo21UIApplicationDelegate", "applicationWillEnterForeground"]
+- ["PSo21UIApplicationDelegate", "applicationWillResignActive"]
+- ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
+- ["PSo21UIApplicationDelegate", "window"]
+- ["PSo21UIApplicationDelegate", ""]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "MSAnalytics"]
+- !private ["CSo11UIResponder", "MSCrashes"]
+- !private ["CSo11UIResponder", "MSMobileCenter"]
+- ["CSo11UIResponder", "UIApplication"]
+- ["CSo11UIResponder", "UIApplicationLaunchOptionsKey"]
+- ["CSo11UIResponder", "UIWindow"]
+- ["CSo11UIResponder", "application"]
+- ["CSo11UIResponder", "applicationDidBecomeActive"]
+- ["CSo11UIResponder", "applicationDidEnterBackground"]
+- ["CSo11UIResponder", "applicationDidFinishLaunching"]
+- ["CSo11UIResponder", "applicationDidReceiveMemoryWarning"]
+- ["CSo11UIResponder", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo11UIResponder", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo11UIResponder", "applicationShouldRequestHealthAuthorization"]
+- ["CSo11UIResponder", "applicationSignificantTimeChange"]
+- ["CSo11UIResponder", "applicationWillEnterForeground"]
+- ["CSo11UIResponder", "applicationWillResignActive"]
+- ["CSo11UIResponder", "applicationWillTerminate"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "window"]
+- ["CSo11UIResponder", ""]
+- !private ["PSo30UIResponderStandardEditActions", "MSAnalytics"]
+- !private ["PSo30UIResponderStandardEditActions", "MSCrashes"]
+- !private ["PSo30UIResponderStandardEditActions", "MSMobileCenter"]
+- ["PSo30UIResponderStandardEditActions", "application"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidBecomeActive"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidEnterBackground"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidFinishLaunching"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidReceiveMemoryWarning"]
+- ["PSo30UIResponderStandardEditActions", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo30UIResponderStandardEditActions", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo30UIResponderStandardEditActions", "applicationShouldRequestHealthAuthorization"]
+- ["PSo30UIResponderStandardEditActions", "applicationSignificantTimeChange"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillEnterForeground"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillResignActive"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillTerminate"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "window"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "MSAnalytics"]
+- !private ["Ps9_Hashable", "MSCrashes"]
+- !private ["Ps9_Hashable", "MSMobileCenter"]
+- ["Ps9_Hashable", "application"]
+- ["Ps9_Hashable", "applicationDidBecomeActive"]
+- ["Ps9_Hashable", "applicationDidEnterBackground"]
+- ["Ps9_Hashable", "applicationDidFinishLaunching"]
+- ["Ps9_Hashable", "applicationDidReceiveMemoryWarning"]
+- ["Ps9_Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9_Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9_Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9_Hashable", "applicationSignificantTimeChange"]
+- ["Ps9_Hashable", "applicationWillEnterForeground"]
+- ["Ps9_Hashable", "applicationWillResignActive"]
+- ["Ps9_Hashable", "applicationWillTerminate"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "start"]
+- ["Ps9_Hashable", "window"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C17demoapp_ios_swift11AppDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "CSo14MSMobileCenter"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "PSo21UIApplicationDelegate"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSDevice.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSService.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterAnalytics.framework/Headers/MSService.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSService.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSCrashesDelegate.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSAbstractLog.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSAbstractLog.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSErrorAttachmentLog.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSWrapperSdk.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MobileCenter.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSMobileCenter.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterAnalytics.framework/Headers/MSAnalytics.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterAnalytics.framework/Headers/MobileCenterAnalytics.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSCrashes.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MobileCenterCrashes.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSLogWithProperties.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSCustomProperties.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSMobileCenterErrors.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSConstants.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSServiceAbstract.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterAnalytics.framework/Headers/MSServiceAbstract.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSServiceAbstract.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSErrorReport.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSErrorAttachmentLog+Utility.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Modules/module.modulemap"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterAnalytics.framework/Modules/module.modulemap"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Modules/module.modulemap"
+interface-hash: "7ac9cdd1d5626da630019c751078ec98"

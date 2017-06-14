@@ -1,0 +1,336 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "demoapp_ios_swiftUITests"
+provides-nominal:
+- "C24demoapp_ios_swiftUITests24demoapp_ios_swiftUITests"
+provides-member:
+- ["C24demoapp_ios_swiftUITests24demoapp_ios_swiftUITests", ""]
+provides-dynamic-lookup:
+- "setUp"
+- "tearDown"
+- "testLButton"
+- "testRButton"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "XCTAssert"
+- !private "XCTAssertNotNil"
+- "XCTestCase"
+- !private "XCUIApplication"
+- "demoapp_ios_swiftUITests"
+depends-member:
+- !private ["Ps9AnyObject", "XCTAssert"]
+- !private ["Ps9AnyObject", "XCTAssertNotNil"]
+- !private ["Ps9AnyObject", "XCUIApplication"]
+- !private ["Ps9AnyObject", "buttons"]
+- !private ["Ps9AnyObject", "continueAfterFailure"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "label"]
+- !private ["Ps9AnyObject", "launch"]
+- !private ["Ps9AnyObject", "setUp"]
+- !private ["Ps9AnyObject", "staticTexts"]
+- !private ["Ps9AnyObject", "subscript"]
+- !private ["Ps9AnyObject", "tap"]
+- !private ["Ps9AnyObject", "tearDown"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "XCTAssert"]
+- !private ["Ps7CVarArg", "XCTAssertNotNil"]
+- !private ["Ps7CVarArg", "XCUIApplication"]
+- !private ["Ps7CVarArg", "buttons"]
+- !private ["Ps7CVarArg", "continueAfterFailure"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "label"]
+- !private ["Ps7CVarArg", "launch"]
+- !private ["Ps7CVarArg", "setUp"]
+- !private ["Ps7CVarArg", "staticTexts"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "tap"]
+- !private ["Ps7CVarArg", "tearDown"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "XCTAssert"]
+- !private ["Ps28CustomDebugStringConvertible", "XCTAssertNotNil"]
+- !private ["Ps28CustomDebugStringConvertible", "XCUIApplication"]
+- !private ["Ps28CustomDebugStringConvertible", "buttons"]
+- !private ["Ps28CustomDebugStringConvertible", "continueAfterFailure"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "label"]
+- !private ["Ps28CustomDebugStringConvertible", "launch"]
+- !private ["Ps28CustomDebugStringConvertible", "setUp"]
+- !private ["Ps28CustomDebugStringConvertible", "staticTexts"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "tap"]
+- !private ["Ps28CustomDebugStringConvertible", "tearDown"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "XCTAssert"]
+- !private ["Ps23CustomStringConvertible", "XCTAssertNotNil"]
+- !private ["Ps23CustomStringConvertible", "XCUIApplication"]
+- !private ["Ps23CustomStringConvertible", "buttons"]
+- !private ["Ps23CustomStringConvertible", "continueAfterFailure"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "label"]
+- !private ["Ps23CustomStringConvertible", "launch"]
+- !private ["Ps23CustomStringConvertible", "setUp"]
+- !private ["Ps23CustomStringConvertible", "staticTexts"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "tap"]
+- !private ["Ps23CustomStringConvertible", "tearDown"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "XCTAssert"]
+- !private ["Ps9Equatable", "XCTAssertNotNil"]
+- !private ["Ps9Equatable", "XCUIApplication"]
+- !private ["Ps9Equatable", "buttons"]
+- !private ["Ps9Equatable", "continueAfterFailure"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "label"]
+- !private ["Ps9Equatable", "launch"]
+- !private ["Ps9Equatable", "setUp"]
+- !private ["Ps9Equatable", "staticTexts"]
+- !private ["Ps9Equatable", "subscript"]
+- !private ["Ps9Equatable", "tap"]
+- !private ["Ps9Equatable", "tearDown"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "XCTAssert"]
+- !private ["Ps8Hashable", "XCTAssertNotNil"]
+- !private ["Ps8Hashable", "XCUIApplication"]
+- !private ["Ps8Hashable", "buttons"]
+- !private ["Ps8Hashable", "continueAfterFailure"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "label"]
+- !private ["Ps8Hashable", "launch"]
+- !private ["Ps8Hashable", "setUp"]
+- !private ["Ps8Hashable", "staticTexts"]
+- !private ["Ps8Hashable", "subscript"]
+- !private ["Ps8Hashable", "tap"]
+- !private ["Ps8Hashable", "tearDown"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "XCTAssert"]
+- !private ["CSo8NSObject", "XCTAssertNotNil"]
+- !private ["CSo8NSObject", "XCUIApplication"]
+- !private ["CSo8NSObject", "buttons"]
+- !private ["CSo8NSObject", "continueAfterFailure"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "label"]
+- !private ["CSo8NSObject", "launch"]
+- ["CSo8NSObject", "setUp"]
+- !private ["CSo8NSObject", "staticTexts"]
+- !private ["CSo8NSObject", "subscript"]
+- !private ["CSo8NSObject", "tap"]
+- ["CSo8NSObject", "tearDown"]
+- ["CSo8NSObject", "testLButton"]
+- ["CSo8NSObject", "testRButton"]
+- !private ["PSo16NSObjectProtocol", "XCTAssert"]
+- !private ["PSo16NSObjectProtocol", "XCTAssertNotNil"]
+- !private ["PSo16NSObjectProtocol", "XCUIApplication"]
+- !private ["PSo16NSObjectProtocol", "buttons"]
+- !private ["PSo16NSObjectProtocol", "continueAfterFailure"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "label"]
+- !private ["PSo16NSObjectProtocol", "launch"]
+- !private ["PSo16NSObjectProtocol", "setUp"]
+- !private ["PSo16NSObjectProtocol", "staticTexts"]
+- !private ["PSo16NSObjectProtocol", "subscript"]
+- !private ["PSo16NSObjectProtocol", "tap"]
+- !private ["PSo16NSObjectProtocol", "tearDown"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo17XCTWaiterDelegate", "XCTAssert"]
+- !private ["PSo17XCTWaiterDelegate", "XCTAssertNotNil"]
+- !private ["PSo17XCTWaiterDelegate", "XCUIApplication"]
+- !private ["PSo17XCTWaiterDelegate", "continueAfterFailure"]
+- !private ["PSo17XCTWaiterDelegate", "init"]
+- !private ["PSo17XCTWaiterDelegate", "setUp"]
+- !private ["PSo17XCTWaiterDelegate", "tearDown"]
+- ["PSo17XCTWaiterDelegate", ""]
+- !private ["CSo6XCTest", "XCTAssert"]
+- !private ["CSo6XCTest", "XCTAssertNotNil"]
+- !private ["CSo6XCTest", "XCUIApplication"]
+- !private ["CSo6XCTest", "continueAfterFailure"]
+- ["CSo6XCTest", "init"]
+- ["CSo6XCTest", "setUp"]
+- ["CSo6XCTest", "tearDown"]
+- ["CSo6XCTest", "testLButton"]
+- ["CSo6XCTest", "testRButton"]
+- !private ["CSo10XCTestCase", "XCTAssert"]
+- !private ["CSo10XCTestCase", "XCTAssertNotNil"]
+- !private ["CSo10XCTestCase", "XCUIApplication"]
+- !private ["CSo10XCTestCase", "continueAfterFailure"]
+- ["CSo10XCTestCase", "init"]
+- ["CSo10XCTestCase", "setUp"]
+- ["CSo10XCTestCase", "tearDown"]
+- ["CSo10XCTestCase", "testLButton"]
+- ["CSo10XCTestCase", "testRButton"]
+- ["CSo10XCTestCase", ""]
+- !private ["CSo15XCUIApplication", "buttons"]
+- !private ["CSo15XCUIApplication", "init"]
+- !private ["CSo15XCUIApplication", "launch"]
+- !private ["CSo15XCUIApplication", "staticTexts"]
+- !private ["CSo11XCUIElement", "buttons"]
+- !private ["CSo11XCUIElement", "init"]
+- !private ["CSo11XCUIElement", "label"]
+- !private ["CSo11XCUIElement", "launch"]
+- !private ["CSo11XCUIElement", "staticTexts"]
+- !private ["CSo11XCUIElement", "tap"]
+- !private ["PSo21XCUIElementAttributes", "buttons"]
+- !private ["PSo21XCUIElementAttributes", "init"]
+- !private ["PSo21XCUIElementAttributes", "label"]
+- !private ["PSo21XCUIElementAttributes", "launch"]
+- !private ["PSo21XCUIElementAttributes", "staticTexts"]
+- !private ["PSo21XCUIElementAttributes", "tap"]
+- !private ["CSo16XCUIElementQuery", "subscript"]
+- !private ["PSo28XCUIElementTypeQueryProvider", "buttons"]
+- !private ["PSo28XCUIElementTypeQueryProvider", "init"]
+- !private ["PSo28XCUIElementTypeQueryProvider", "label"]
+- !private ["PSo28XCUIElementTypeQueryProvider", "launch"]
+- !private ["PSo28XCUIElementTypeQueryProvider", "staticTexts"]
+- !private ["PSo28XCUIElementTypeQueryProvider", "subscript"]
+- !private ["PSo28XCUIElementTypeQueryProvider", "tap"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "XCTAssert"]
+- !private ["Ps9_Hashable", "XCTAssertNotNil"]
+- !private ["Ps9_Hashable", "XCUIApplication"]
+- !private ["Ps9_Hashable", "buttons"]
+- !private ["Ps9_Hashable", "continueAfterFailure"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "label"]
+- !private ["Ps9_Hashable", "launch"]
+- !private ["Ps9_Hashable", "setUp"]
+- !private ["Ps9_Hashable", "staticTexts"]
+- !private ["Ps9_Hashable", "subscript"]
+- !private ["Ps9_Hashable", "tap"]
+- !private ["Ps9_Hashable", "tearDown"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["C24demoapp_ios_swiftUITests24demoapp_ios_swiftUITests", "XCTAssert"]
+- !private ["C24demoapp_ios_swiftUITests24demoapp_ios_swiftUITests", "XCTAssertNotNil"]
+- !private ["C24demoapp_ios_swiftUITests24demoapp_ios_swiftUITests", "XCUIApplication"]
+- !private ["C24demoapp_ios_swiftUITests24demoapp_ios_swiftUITests", "continueAfterFailure"]
+- ["C24demoapp_ios_swiftUITests24demoapp_ios_swiftUITests", "deinit"]
+- ["C24demoapp_ios_swiftUITests24demoapp_ios_swiftUITests", "init"]
+- ["C24demoapp_ios_swiftUITests24demoapp_ios_swiftUITests", "setUp"]
+- ["C24demoapp_ios_swiftUITests24demoapp_ios_swiftUITests", "tearDown"]
+- ["C24demoapp_ios_swiftUITests24demoapp_ios_swiftUITests", "testLButton"]
+- ["C24demoapp_ios_swiftUITests24demoapp_ios_swiftUITests", "testRButton"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "PSo17XCTWaiterDelegate"
+- "CSo6XCTest"
+- "CSo10XCTestCase"
+- !private "CSo15XCUIApplication"
+- !private "CSo11XCUIElement"
+- !private "PSo21XCUIElementAttributes"
+- !private "CSo16XCUIElementQuery"
+- !private "PSo28XCUIElementTypeQueryProvider"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- "C24demoapp_ios_swiftUITests24demoapp_ios_swiftUITests"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/XCTest.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestProbe.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIDevice.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUISiriService.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUICoordinate.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuite.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIRemote.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase+AsynchronousTesting.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestLog.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertionsImpl.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIApplication.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTKVOExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTNSPredicateExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTNSNotificationExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTDarwinNotificationExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCaseRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuiteRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypeQueryProvider.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTWaiter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservationCenter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObserver.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementAttributes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertions.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestErrors.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElement.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCAbstractTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementQuery.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+interface-hash: "2f4e52a5e553e44b14091686a62880b1"

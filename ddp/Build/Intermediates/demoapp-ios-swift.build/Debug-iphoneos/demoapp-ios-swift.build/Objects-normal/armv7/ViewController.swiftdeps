@@ -1,0 +1,403 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C17demoapp_ios_swift14ViewController"
+provides-member:
+- ["C17demoapp_ios_swift14ViewController", ""]
+provides-dynamic-lookup:
+- "activateCrash"
+- "controlLabel"
+- "crash1Button"
+- "crash2Button"
+- "didReceiveMemoryWarning"
+- "leftButton"
+- "leftButtonClick"
+- "rightButton"
+- "rightButtonClick"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "Int"
+- !private "StringLiteralType"
+- "UIButton"
+- "UILabel"
+- "UIViewController"
+- "ViewController"
+- !private "fatalError"
+- !private "print"
+- !private "~="
+depends-member:
+- !private ["Ps9AnyObject", "controlLabel"]
+- !private ["Ps9AnyObject", "crash1Button"]
+- !private ["Ps9AnyObject", "crash2Button"]
+- !private ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["Ps7CVarArg", "controlLabel"]
+- !private ["Ps7CVarArg", "crash1Button"]
+- !private ["Ps7CVarArg", "crash2Button"]
+- !private ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- !private ["Ps7CVarArg", "fatalError"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "text"]
+- !private ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "controlLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "crash1Button"]
+- !private ["Ps28CustomDebugStringConvertible", "crash2Button"]
+- !private ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "controlLabel"]
+- !private ["Ps23CustomStringConvertible", "crash1Button"]
+- !private ["Ps23CustomStringConvertible", "crash2Button"]
+- !private ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "controlLabel"]
+- !private ["Ps9Equatable", "crash1Button"]
+- !private ["Ps9Equatable", "crash2Button"]
+- !private ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "fatalError"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "controlLabel"]
+- !private ["Ps8Hashable", "crash1Button"]
+- !private ["Ps8Hashable", "crash2Button"]
+- !private ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "fatalError"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "controlLabel"]
+- !private ["PSo8NSCoding", "crash1Button"]
+- !private ["PSo8NSCoding", "crash2Button"]
+- !private ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "fatalError"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "controlLabel"]
+- !private ["PSo26NSExtensionRequestHandling", "crash1Button"]
+- !private ["PSo26NSExtensionRequestHandling", "crash2Button"]
+- !private ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "fatalError"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- !private ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "UIButton"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "activateCrash"]
+- ["CSo8NSObject", "controlLabel"]
+- ["CSo8NSObject", "crash1Button"]
+- ["CSo8NSObject", "crash2Button"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "fatalError"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "leftButton"]
+- ["CSo8NSObject", "leftButtonClick"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "rightButton"]
+- ["CSo8NSObject", "rightButtonClick"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "controlLabel"]
+- !private ["PSo16NSObjectProtocol", "crash1Button"]
+- !private ["PSo16NSObjectProtocol", "crash2Button"]
+- !private ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "controlLabel"]
+- !private ["PSo21UIAppearanceContainer", "crash1Button"]
+- !private ["PSo21UIAppearanceContainer", "crash2Button"]
+- !private ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "fatalError"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "controlLabel"]
+- !private ["PSo18UIContentContainer", "crash1Button"]
+- !private ["PSo18UIContentContainer", "crash2Button"]
+- !private ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "fatalError"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "print"]
+- !private ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "controlLabel"]
+- !private ["PSo18UIFocusEnvironment", "crash1Button"]
+- !private ["PSo18UIFocusEnvironment", "crash2Button"]
+- !private ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "fatalError"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["CSo7UILabel", "text"]
+- !private ["CSo11UIResponder", "Int"]
+- ["CSo11UIResponder", "UIButton"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "activateCrash"]
+- ["CSo11UIResponder", "controlLabel"]
+- ["CSo11UIResponder", "crash1Button"]
+- ["CSo11UIResponder", "crash2Button"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "fatalError"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "leftButton"]
+- ["CSo11UIResponder", "leftButtonClick"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "rightButton"]
+- ["CSo11UIResponder", "rightButtonClick"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo30UIResponderStandardEditActions", "controlLabel"]
+- !private ["PSo30UIResponderStandardEditActions", "crash1Button"]
+- !private ["PSo30UIResponderStandardEditActions", "crash2Button"]
+- !private ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "fatalError"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- !private ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo16UIStateRestoring", "controlLabel"]
+- !private ["PSo16UIStateRestoring", "crash1Button"]
+- !private ["PSo16UIStateRestoring", "crash2Button"]
+- !private ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "fatalError"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "print"]
+- !private ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "controlLabel"]
+- !private ["PSo18UITraitEnvironment", "crash1Button"]
+- !private ["PSo18UITraitEnvironment", "crash2Button"]
+- !private ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "fatalError"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo16UIViewController", "Int"]
+- ["CSo16UIViewController", "UIButton"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "activateCrash"]
+- ["CSo16UIViewController", "controlLabel"]
+- ["CSo16UIViewController", "crash1Button"]
+- ["CSo16UIViewController", "crash2Button"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- !private ["CSo16UIViewController", "fatalError"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "leftButton"]
+- ["CSo16UIViewController", "leftButtonClick"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "rightButton"]
+- ["CSo16UIViewController", "rightButtonClick"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["C17demoapp_ios_swift14ViewController", "Int"]
+- ["C17demoapp_ios_swift14ViewController", "UIButton"]
+- ["C17demoapp_ios_swift14ViewController", "UILabel"]
+- ["C17demoapp_ios_swift14ViewController", "activateCrash"]
+- ["C17demoapp_ios_swift14ViewController", "controlLabel"]
+- ["C17demoapp_ios_swift14ViewController", "crash1Button"]
+- ["C17demoapp_ios_swift14ViewController", "crash2Button"]
+- ["C17demoapp_ios_swift14ViewController", "deinit"]
+- ["C17demoapp_ios_swift14ViewController", "didReceiveMemoryWarning"]
+- !private ["C17demoapp_ios_swift14ViewController", "fatalError"]
+- ["C17demoapp_ios_swift14ViewController", "init"]
+- ["C17demoapp_ios_swift14ViewController", "leftButton"]
+- ["C17demoapp_ios_swift14ViewController", "leftButtonClick"]
+- !private ["C17demoapp_ios_swift14ViewController", "print"]
+- ["C17demoapp_ios_swift14ViewController", "rightButton"]
+- ["C17demoapp_ios_swift14ViewController", "rightButtonClick"]
+- ["C17demoapp_ios_swift14ViewController", "viewDidLoad"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "controlLabel"]
+- !private ["Ps9_Hashable", "crash1Button"]
+- !private ["Ps9_Hashable", "crash2Button"]
+- !private ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps9_Hashable", "fatalError"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "text"]
+- !private ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "C17demoapp_ios_swift14ViewController"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSDevice.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSService.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterAnalytics.framework/Headers/MSService.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSService.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSCrashesDelegate.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSAbstractLog.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSAbstractLog.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSErrorAttachmentLog.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSWrapperSdk.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MobileCenter.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSMobileCenter.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterAnalytics.framework/Headers/MSAnalytics.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterAnalytics.framework/Headers/MobileCenterAnalytics.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSCrashes.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MobileCenterCrashes.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSLogWithProperties.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSCustomProperties.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSMobileCenterErrors.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSConstants.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSServiceAbstract.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterAnalytics.framework/Headers/MSServiceAbstract.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSServiceAbstract.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSErrorReport.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSErrorAttachmentLog+Utility.h"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenter.framework/Modules/module.modulemap"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterAnalytics.framework/Modules/module.modulemap"
+- "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/MobileCenter/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Modules/module.modulemap"
+interface-hash: "0b1c0542555d13b908d7423df431072c"

@@ -1,0 +1,102 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/sabrinajiang/Desktop/demoapp-ios-swift/ddp/Build/Products/Debug-iphoneos/Pods_demoapp_ios_swiftTests.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-demoapp-ios-swiftTests-umbrella.h",
+          'external-contents': "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/Target Support Files/Pods-demoapp-ios-swiftTests/Pods-demoapp-ios-swiftTests-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_demoapp_ios_swiftTests-Swift.h",
+          'external-contents': "/Users/sabrinajiang/Desktop/demoapp-ios-swift/ddp/Build/Products/Debug-iphoneos/Pods_demoapp_ios_swiftTests.framework/Headers/Pods_demoapp_ios_swiftTests-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sabrinajiang/Desktop/demoapp-ios-swift/ddp/Build/Products/Debug-iphoneos/Pods_demoapp_ios_swiftTests.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/sabrinajiang/Desktop/demoapp-ios-swift/ddp/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-demoapp-ios-swiftTests.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sabrinajiang/Desktop/demoapp-ios-swift/ddp/Build/Products/Debug-iphoneos/Pods_demoapp_ios_swiftUITests.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-demoapp-ios-swiftUITests-umbrella.h",
+          'external-contents': "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/Target Support Files/Pods-demoapp-ios-swiftUITests/Pods-demoapp-ios-swiftUITests-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_demoapp_ios_swiftUITests-Swift.h",
+          'external-contents': "/Users/sabrinajiang/Desktop/demoapp-ios-swift/ddp/Build/Products/Debug-iphoneos/Pods_demoapp_ios_swiftUITests.framework/Headers/Pods_demoapp_ios_swiftUITests-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sabrinajiang/Desktop/demoapp-ios-swift/ddp/Build/Products/Debug-iphoneos/Pods_demoapp_ios_swiftUITests.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/sabrinajiang/Desktop/demoapp-ios-swift/ddp/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-demoapp-ios-swiftUITests.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sabrinajiang/Desktop/demoapp-ios-swift/ddp/Build/Products/Debug-iphoneos/VSMobileCenterExtensions/VSMobileCenterExtensions.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MCLabel.h",
+          'external-contents': "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/VSMobileCenterExtensions/VSMobileCenterExtensions/MCLabel.h"
+        },
+        {
+          'type': 'file',
+          'name': "VSMobileCenterExtensions-Bridging-Header.h",
+          'external-contents': "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/VSMobileCenterExtensions/VSMobileCenterExtensions/VSMobileCenterExtensions-Bridging-Header.h"
+        },
+        {
+          'type': 'file',
+          'name': "VSMobileCenterExtensions-Swift.h",
+          'external-contents': "/Users/sabrinajiang/Desktop/demoapp-ios-swift/ddp/Build/Products/Debug-iphoneos/VSMobileCenterExtensions/VSMobileCenterExtensions.framework/Headers/VSMobileCenterExtensions-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "VSMobileCenterExtensions-umbrella.h",
+          'external-contents': "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/Target Support Files/VSMobileCenterExtensions/VSMobileCenterExtensions-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "VSMobileCenterExtensions.h",
+          'external-contents': "/Users/sabrinajiang/Desktop/demoapp-ios-swift/Pods/VSMobileCenterExtensions/VSMobileCenterExtensions/VSMobileCenterExtensions.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/sabrinajiang/Desktop/demoapp-ios-swift/ddp/Build/Products/Debug-iphoneos/VSMobileCenterExtensions/VSMobileCenterExtensions.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/sabrinajiang/Desktop/demoapp-ios-swift/ddp/Build/Intermediates/Pods.build/Debug-iphoneos/VSMobileCenterExtensions.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
