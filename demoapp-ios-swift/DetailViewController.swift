@@ -10,17 +10,15 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    @IBOutlet weak var detailDescriptionLabel: UILabel!
-
-
+    @IBOutlet weak var beaconTitleLabel: UILabel!
+    @IBOutlet weak var beaconImageView: UIImageView!
+    
     func configureView() {
         // Update the user interface for the detail item.
-        if let detail = detailItem {
-            if let label = detailDescriptionLabel {
-                label.text = detail.description
-            }
-        }
+        beaconTitleLabel.text = beacon?.name
+        beaconImageView.image = beacon?.beaconImage()
     }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,9 +31,9 @@ class DetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    var detailItem: NSDate? {
+    var beacon: Beacon? {
         didSet {
-            // Update the view.
+            // Refresh the UI
             configureView()
         }
     }

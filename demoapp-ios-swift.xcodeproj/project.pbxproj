@@ -15,6 +15,7 @@
 		265586FD1EF88770001914FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265586FB1EF88770001914FC /* LaunchScreen.storyboard */; };
 		265587081EF88770001914FC /* demoapp_ios_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265587071EF88770001914FC /* demoapp_ios_swiftTests.swift */; };
 		265587131EF88770001914FC /* demoapp_ios_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265587121EF88770001914FC /* demoapp_ios_swiftUITests.swift */; };
+		265587211EF88861001914FC /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265587201EF88861001914FC /* Beacon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2655870E1EF88770001914FC /* demoapp-ios-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "demoapp-ios-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		265587121EF88770001914FC /* demoapp_ios_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoapp_ios_swiftUITests.swift; sourceTree = "<group>"; };
 		265587141EF88770001914FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		265587201EF88861001914FC /* Beacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				265586F01EF88770001914FC /* AppDelegate.swift */,
 				265586F21EF88770001914FC /* MasterViewController.swift */,
+				265587201EF88861001914FC /* Beacon.swift */,
 				265586F41EF88770001914FC /* DetailViewController.swift */,
 				265586F61EF88770001914FC /* Main.storyboard */,
 				265586F91EF88770001914FC /* Assets.xcassets */,
@@ -265,6 +268,7 @@
 				265586F51EF88770001914FC /* DetailViewController.swift in Sources */,
 				265586F31EF88770001914FC /* MasterViewController.swift in Sources */,
 				265586F11EF88770001914FC /* AppDelegate.swift in Sources */,
+				265587211EF88861001914FC /* Beacon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
