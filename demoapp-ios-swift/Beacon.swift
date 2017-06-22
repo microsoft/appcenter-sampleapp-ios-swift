@@ -44,5 +44,6 @@ class Beacon {
             return UIImage(named: "push")
         }
     }
+    
 }
 
