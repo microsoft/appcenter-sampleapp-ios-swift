@@ -1,24 +1,22 @@
 //
-//  DetailViewController.swift
+//  AnalyticsViewController.swift
 //  demoapp-ios-swift
 //
-//  Created by Tina on 2017-06-19.
+//  Created by Tina on 2017-06-22.
 //  Copyright © 2017 Tina. All rights reserved.
 //
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class AnalyticsViewController: UIViewController {
     
     @IBOutlet weak var beaconTitleLabel: UILabel!
-    @IBOutlet weak var beaconImageView: UIImageView!
     
     func configureView() {
         // Update the user interface for the detail item.
         if beacon != nil {
             if let label = beaconTitleLabel {
                 label.text = beacon?.name
-                beaconImageView.image = beacon?.beaconImage()
             }
         }
     }
@@ -43,4 +41,5 @@ class DetailViewController: UIViewController {
     
     
 }
+
 

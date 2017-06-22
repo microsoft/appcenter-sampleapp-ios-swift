@@ -515,6 +515,7 @@
 				265587191EF88771001914FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2655871A1EF88771001914FC /* Build configuration list for PBXNativeTarget "demoapp-ios-swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +524,7 @@
 				2655871C1EF88771001914FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2655871D1EF88771001914FC /* Build configuration list for PBXNativeTarget "demoapp-ios-swiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +533,7 @@
 				2655871F1EF88771001914FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
