@@ -54,6 +54,8 @@ class MasterViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let row = indexPath.row
         switch row {
+        case 3:
+            self.performSegue(withIdentifier: "showCrash", sender: nil)
         case 4:
             self.performSegue(withIdentifier: "showAnalytics", sender: nil)
         default:
