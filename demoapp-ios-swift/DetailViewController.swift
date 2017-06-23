@@ -45,9 +45,3 @@ class DetailViewController: UIViewController {
     }
 }
 
-extension DetailViewController: detailViewControllerDelegate {
-    func beaconSelected(newBeacon: Beacon) {
-        beacon = newBeacon
-    }
-}
-

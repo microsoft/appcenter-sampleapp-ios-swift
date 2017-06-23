@@ -14,7 +14,6 @@ class AnalyticsViewController: UIViewController {
     @IBOutlet weak var topButton: UIButton!
     @IBOutlet weak var bottomButton: UIButton!
     
-    
     @IBAction func analyticsButtonTapped(_ sender: UIButton) {
         switch sender {
         case topButton:
@@ -26,5 +25,4 @@ class AnalyticsViewController: UIViewController {
             break
         }
     }
-    
 }

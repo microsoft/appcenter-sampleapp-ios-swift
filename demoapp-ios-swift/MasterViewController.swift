@@ -8,21 +8,16 @@
 
 import UIKit
 
-protocol detailViewControllerDelegate: class {
-    func beaconSelected(newBeacon: Beacon)
-}
-
 class MasterViewController: UITableViewController {
     
     var detailViewController: DetailViewController? = nil
-    weak var delegate: detailViewControllerDelegate?
-    
-    // construct Data Model array, manually added for now
+    // construct Data Model array
     var beacons: [Beacon] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view
+        // Here, we manually add our beacons to the Data Model
         self.beacons.append(Beacon(name: "Build", type: BeaconType.Build))
         self.beacons.append(Beacon(name: "Test", type: BeaconType.Test))
         self.beacons.append(Beacon(name: "Distribute", type: BeaconType.Distribute))
@@ -54,6 +49,9 @@ class MasterViewController: UITableViewController {
                 let selectedBeacon = beacons[indexPath.row] as Beacon
                 let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
                 controller.beacon = selectedBeacon
+
+                controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
+                controller.navigationItem.leftItemsSupplementBackButton = true
             }
         }
     }
@@ -85,9 +83,7 @@ class MasterViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         let beacon = self.beacons[indexPath.row]
         cell.textLabel?.text = beacon.name
-        
         // Configure cell
         return cell
     }
-    
 }

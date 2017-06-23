@@ -13,7 +13,6 @@ class CrashViewController: UIViewController {
     @IBOutlet weak var fatalErrorButton: UIButton!
     @IBOutlet weak var nilValueButton: UIButton!
     
-    
     @IBAction func crashButtonTapped(_ sender: UIButton) {
         switch sender {
         case fatalErrorButton:

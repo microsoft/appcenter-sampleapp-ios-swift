@@ -16,6 +16,7 @@ enum BeaconType {
 // Define a class named Beacon
 
 class Beacon {
+    
     // set variables associated with Beacon
     var name: String
     var type: BeaconType
@@ -59,6 +60,5 @@ class Beacon {
             return "Sorry, an error has occured"
         }
     }
-    
 }
 
