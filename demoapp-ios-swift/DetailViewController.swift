@@ -9,8 +9,8 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-    
-    @IBOutlet weak var beaconBlurb: UILabel!
+
+    @IBOutlet weak var beaconBlurb: UITextView!
     @IBOutlet weak var beaconTitleLabel: UILabel!
     @IBOutlet weak var beaconImageView: UIImageView!
     
