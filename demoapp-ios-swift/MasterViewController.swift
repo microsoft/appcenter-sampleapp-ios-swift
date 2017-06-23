@@ -46,6 +46,18 @@ class MasterViewController: UITableViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    // MARK: - Segues
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showDetail" {
+            if let indexPath = tableView.indexPathForSelectedRow {
+                let selectedBeacon = beacons[indexPath.row] as Beacon
+                let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
+                controller.beacon = selectedBeacon
+            }
+        }
+    }
+
     // MARK: - Table View
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -66,8 +78,6 @@ class MasterViewController: UITableViewController {
             self.performSegue(withIdentifier: "showAnalytics", sender: self)
         default:
             self.performSegue(withIdentifier: "showDetail", sender: self)
-            let selectedBeacon = self.beacons[row]
-            self.delegate?.beaconSelected(newBeacon: selectedBeacon)
         }
     }
     

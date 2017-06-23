@@ -15,6 +15,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var beaconImageView: UIImageView!
     
     func configureView() {
+        let _  = self.view
         // Update the user interface for the detail item.
         if self.beacon != nil {
             if let label = beaconTitleLabel {
