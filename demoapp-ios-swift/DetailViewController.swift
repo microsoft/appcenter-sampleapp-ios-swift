@@ -10,15 +10,17 @@ import UIKit
 
 class DetailViewController: UIViewController {
     
+    @IBOutlet weak var beaconBlurb: UILabel!
     @IBOutlet weak var beaconTitleLabel: UILabel!
     @IBOutlet weak var beaconImageView: UIImageView!
     
     func configureView() {
         // Update the user interface for the detail item.
-        if beacon != nil {
+        if self.beacon != nil {
             if let label = beaconTitleLabel {
                 label.text = beacon?.name
                 beaconImageView.image = beacon?.beaconImage()
+                beaconBlurb.text = beacon?.beaconBlurb()
             }
         }
     }
@@ -40,7 +42,11 @@ class DetailViewController: UIViewController {
             configureView()
         }
     }
-    
-    
+}
+
+extension DetailViewController: detailViewControllerDelegate {
+    func beaconSelected(newBeacon: Beacon) {
+        beacon = newBeacon
+    }
 }
 

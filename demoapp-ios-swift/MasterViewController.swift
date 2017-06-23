@@ -8,9 +8,14 @@
 
 import UIKit
 
+protocol detailViewControllerDelegate: class {
+    func beaconSelected(newBeacon: Beacon)
+}
+
 class MasterViewController: UITableViewController {
     
     var detailViewController: DetailViewController? = nil
+    weak var delegate: detailViewControllerDelegate?
     
     // construct Data Model array, manually added for now
     var beacons: [Beacon] = []
@@ -54,7 +59,6 @@ class MasterViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let row = indexPath.row
         
-        
         switch row {
         case 3:
             self.performSegue(withIdentifier: "showCrash", sender: self)
@@ -62,6 +66,8 @@ class MasterViewController: UITableViewController {
             self.performSegue(withIdentifier: "showAnalytics", sender: self)
         default:
             self.performSegue(withIdentifier: "showDetail", sender: self)
+            let selectedBeacon = self.beacons[row]
+            self.delegate?.beaconSelected(newBeacon: selectedBeacon)
         }
     }
     
@@ -74,8 +80,4 @@ class MasterViewController: UITableViewController {
         return cell
     }
     
-
-
-    
 }
-

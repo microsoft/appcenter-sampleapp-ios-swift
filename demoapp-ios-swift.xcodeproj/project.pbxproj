@@ -16,6 +16,8 @@
 		265587081EF88770001914FC /* demoapp_ios_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265587071EF88770001914FC /* demoapp_ios_swiftTests.swift */; };
 		265587131EF88770001914FC /* demoapp_ios_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265587121EF88770001914FC /* demoapp_ios_swiftUITests.swift */; };
 		265587211EF88861001914FC /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265587201EF88861001914FC /* Beacon.swift */; };
+		267EDE4A1EFC7C5700AA5444 /* CrashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267EDE491EFC7C5700AA5444 /* CrashViewController.swift */; };
+		267EDE4C1EFC8AF600AA5444 /* AnalyticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267EDE4B1EFC8AF600AA5444 /* AnalyticsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		265587121EF88770001914FC /* demoapp_ios_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoapp_ios_swiftUITests.swift; sourceTree = "<group>"; };
 		265587141EF88770001914FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		265587201EF88861001914FC /* Beacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
+		267EDE491EFC7C5700AA5444 /* CrashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrashViewController.swift; sourceTree = "<group>"; };
+		267EDE4B1EFC8AF600AA5444 /* AnalyticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +107,10 @@
 			children = (
 				265586F01EF88770001914FC /* AppDelegate.swift */,
 				265586F21EF88770001914FC /* MasterViewController.swift */,
+				267EDE491EFC7C5700AA5444 /* CrashViewController.swift */,
 				265587201EF88861001914FC /* Beacon.swift */,
 				265586F41EF88770001914FC /* DetailViewController.swift */,
+				267EDE4B1EFC8AF600AA5444 /* AnalyticsViewController.swift */,
 				265586F61EF88770001914FC /* Main.storyboard */,
 				265586F91EF88770001914FC /* Assets.xcassets */,
 				265586FB1EF88770001914FC /* LaunchScreen.storyboard */,
@@ -268,7 +274,9 @@
 				265586F51EF88770001914FC /* DetailViewController.swift in Sources */,
 				265586F31EF88770001914FC /* MasterViewController.swift in Sources */,
 				265586F11EF88770001914FC /* AppDelegate.swift in Sources */,
+				267EDE4A1EFC7C5700AA5444 /* CrashViewController.swift in Sources */,
 				265587211EF88861001914FC /* Beacon.swift in Sources */,
+				267EDE4C1EFC8AF600AA5444 /* AnalyticsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -36,12 +36,27 @@ class Beacon {
             return UIImage(named: "test")
         case .Distribute:
             return UIImage(named: "distribute")
-        case .Crash:
-            return UIImage(named: "crash")
-        case .Analytics:
-            return UIImage(named: "crash") // TODO: get a custom analytics image
         case .Push:
             return UIImage(named: "push")
+        
+        default:
+            return UIImage(named: "crash")
+        }
+    }
+    
+    func beaconBlurb() -> String? {
+        switch self.type {
+        case .Build:
+            return "Mobile Center can securely build your team's app - simply sign in with Github, Bitbucket, or Visual Studio Team Services and never worry about your local build server again."
+        case .Test:
+            return "This is Test"
+        case .Distribute:
+            return "This is Distribute"
+        case .Push:
+            return "This is Push"
+            
+        default:
+            return "Sorry, an error has occured"
         }
     }
     
