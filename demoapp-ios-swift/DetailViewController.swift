@@ -13,11 +13,11 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var beaconBlurb: UITextView!
     @IBOutlet weak var beaconTitleLabel: UILabel!
     @IBOutlet weak var beaconImageView: UIImageView!
-    
+
     func configureView() {
-        let _  = self.view
+        _ = view
         // Update the user interface for the detail item.
-        if self.beacon != nil {
+        if beacon != nil {
             if let label = beaconTitleLabel {
                 label.text = beacon?.name
                 beaconImageView.image = beacon?.beaconImage()
@@ -25,18 +25,18 @@ class DetailViewController: UIViewController {
             }
         }
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         configureView()
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
     var beacon: Beacon? {
         didSet {
             // Update the view.
@@ -44,4 +44,3 @@ class DetailViewController: UIViewController {
         }
     }
 }
-
