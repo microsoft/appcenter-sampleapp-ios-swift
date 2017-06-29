@@ -1,25 +1,27 @@
-//
-//  AnalyticsViewController.swift
-//  demoapp-ios-swift
-//
-//  Created by Tina on 2017-06-22.
-//  Copyright © 2017 Tina. All rights reserved.
-//
 
 import UIKit
 
 class AnalyticsViewController: UIViewController {
 
-    @IBOutlet weak var controlLabel: UILabel!
-    @IBOutlet weak var topButton: UIButton!
-    @IBOutlet weak var bottomButton: UIButton!
+    @IBOutlet weak var customEventButton: UIButton!
+    @IBOutlet weak var customColorButton: UIButton!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        customColorButton.layer.cornerRadius = 10.0
+        customEventButton.layer.cornerRadius = 10.0
+        
+        self.navigationController?.navigationBar.barTintColor = UIColor.black
+        self.navigationController?.navigationBar.isTranslucent = false
+    }
 
     @IBAction func analyticsButtonTapped(_ sender: UIButton) {
         switch sender {
-        case topButton:
-            controlLabel.text = "Up top!"
-        case bottomButton:
-            controlLabel.text = "Down low."
+        case customEventButton:
+            print("sample event button pressed")
+        case customColorButton:
+            print("custom color property button pressed")
 
         default:
             break

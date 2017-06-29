@@ -1,27 +1,20 @@
-//
-//  DetailViewController.swift
-//  demoapp-ios-swift
-//
-//  Created by Tina on 2017-06-19.
-//  Copyright © 2017 Tina. All rights reserved.
-//
 
 import UIKit
 
 class DetailViewController: UIViewController {
 
-    @IBOutlet weak var beaconBlurb: UITextView!
-    @IBOutlet weak var beaconTitleLabel: UILabel!
-    @IBOutlet weak var beaconImageView: UIImageView!
+    @IBOutlet weak var serviceBlurb: UITextView!
+    @IBOutlet weak var serviceTitleLabel: UILabel!
+    @IBOutlet weak var serviceImageView: UIImageView!
 
     func configureView() {
         _ = view
         // Update the user interface for the detail item.
-        if beacon != nil {
-            if let label = beaconTitleLabel {
-                label.text = beacon?.name
-                beaconImageView.image = beacon?.beaconImage()
-                beaconBlurb.text = beacon?.beaconBlurb()
+        if service != nil {
+            if let label = serviceTitleLabel {
+                label.text = service?.name
+                serviceImageView.image = service?.serviceImage()
+                serviceBlurb.text = service?.serviceBlurb()
             }
         }
     }
@@ -37,7 +30,7 @@ class DetailViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    var beacon: Beacon? {
+    var service: service? {
         didSet {
             // Update the view.
             configureView()

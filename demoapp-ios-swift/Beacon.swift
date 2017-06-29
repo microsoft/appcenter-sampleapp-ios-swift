@@ -1,35 +1,28 @@
-//
-//  Beacon.swift
-//  demoapp-ios-swift
-//
-//  Created by Tina on 2017-06-19.
-//  Copyright © 2017 Tina. All rights reserved.
-//
 
 import UIKit
 
-// make an enumeration of Beacon Types
-enum BeaconType {
+// make an enumeration of service Types
+enum ServiceType {
     case Build, Test, Distribute, Crash, Analytics, Push
 }
 
-// Define a class named Beacon
+// Define a class named service
 
-class Beacon {
+class service {
 
-    // set variables associated with Beacon
+    // set variables associated with service
     var name: String
-    var type: BeaconType
+    var type: ServiceType
 
     // Initilization function for the class
-    init(name: String, type: BeaconType) {
+    init(name: String, type: ServiceType) {
         // create instances
         self.name = name
         self.type = type
     }
 
-    // switch statement that changes the imageViews depending on BeaconType
-    func beaconImage() -> UIImage? {
+    // switch statement that changes the imageViews depending on serviceType
+    func serviceImage() -> UIImage? {
         switch type {
         case .Build:
             return UIImage(named: "build")
@@ -45,7 +38,7 @@ class Beacon {
         }
     }
 
-    func beaconBlurb() -> String? {
+    func serviceBlurb() -> String? {
         switch type {
         case .Build:
             return "Mobile Center can securely build your team's app - simply sign in with Github, Bitbucket, or Visual Studio Team Services and never worry about your local build server again."

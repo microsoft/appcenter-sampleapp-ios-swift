@@ -1,10 +1,3 @@
-//
-//  MasterViewController.swift
-//  test123
-//
-//  Created by Tina on 2017-06-19.
-//  Copyright © 2017 Tina. All rights reserved.
-//
 
 import UIKit
 
@@ -12,18 +5,18 @@ class MasterViewController: UITableViewController {
 
     var detailViewController: DetailViewController?
     // construct Data Model array
-    var beacons: [Beacon] = []
+    var services: [service] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view
-        // Here, we manually add our beacons to the Data Model
-        beacons.append(Beacon(name: "Build", type: BeaconType.Build))
-        beacons.append(Beacon(name: "Test", type: BeaconType.Test))
-        beacons.append(Beacon(name: "Distribute", type: BeaconType.Distribute))
-        beacons.append(Beacon(name: "Crash", type: BeaconType.Crash))
-        beacons.append(Beacon(name: "Analytics", type: BeaconType.Analytics))
-        beacons.append(Beacon(name: "Push", type: BeaconType.Push))
+        // Here, we manually add our services to the Data Model
+        services.append(service(name: "Build", type: ServiceType.Build))
+        services.append(service(name: "Test", type: ServiceType.Test))
+        services.append(service(name: "Distribute", type: ServiceType.Distribute))
+        services.append(service(name: "Crash", type: ServiceType.Crash))
+        services.append(service(name: "Analytics", type: ServiceType.Analytics))
+        services.append(service(name: "Push", type: ServiceType.Push))
 
         if let split = splitViewController {
             let controllers = split.viewControllers
@@ -46,9 +39,9 @@ class MasterViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender _: Any?) {
         if segue.identifier == "showDetail" {
             if let indexPath = tableView.indexPathForSelectedRow {
-                let selectedBeacon = beacons[indexPath.row] as Beacon
+                let selectedservice = services[indexPath.row] as service
                 let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
-                controller.beacon = selectedBeacon
+                controller.service = selectedservice
 
                 controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
                 controller.navigationItem.leftItemsSupplementBackButton = true
@@ -63,7 +56,7 @@ class MasterViewController: UITableViewController {
     }
 
     override func tableView(_: UITableView, numberOfRowsInSection _: Int) -> Int {
-        return beacons.count
+        return services.count
     }
 
     override func tableView(_: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -81,8 +74,8 @@ class MasterViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-        let beacon = beacons[indexPath.row]
-        cell.textLabel?.text = beacon.name
+        let service = services[indexPath.row]
+        cell.textLabel?.text = service.name
         // Configure cell
         return cell
     }
