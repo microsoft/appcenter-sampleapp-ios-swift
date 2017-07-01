@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9ta-Qc-Kmz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="OYS-mz-9OC">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -12,7 +12,7 @@
         <!--Root View Controller-->
         <scene sceneID="4V7-En-rm9">
             <objects>
-                <pageViewController storyboardIdentifier="xViewController" autoresizesArchivedViewToFullSize="NO" title="Root View Controller" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="OYS-mz-9OC" customClass="RootViewController" customModule="demoapp_ios_swift" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="rootViewController" autoresizesArchivedViewToFullSize="NO" title="Root View Controller" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="OYS-mz-9OC" customClass="RootViewController" customModule="demoapp_ios_swift" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nMF-Ye-4nZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="265" y="-693"/>
@@ -20,7 +20,7 @@
         <!--Crashes-->
         <scene sceneID="KsX-mS-PC2">
             <objects>
-                <viewController storyboardIdentifier="crashViewController" title="Crashes" id="iDF-Bi-2w7" customClass="CrashViewController" customModule="demoapp_ios_swift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="crashViewController" storyboardIdentifier="crashViewController" title="Crashes" id="iDF-Bi-2w7" customClass="CrashViewController" customModule="demoapp_ios_swift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HOg-I6-39Y"/>
                         <viewControllerLayoutGuide type="bottom" id="Ag0-t7-gPu"/>
@@ -133,7 +133,7 @@
         <!--Analytics-->
         <scene sceneID="Kb1-oa-ELg">
             <objects>
-                <viewController storyboardIdentifier="analyticsViewController" title="Analytics" id="v16-3C-sY2" customClass="AnalyticsViewController" customModule="demoapp_ios_swift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="analyticsViewController" storyboardIdentifier="analyticsViewController" title="Analytics" id="v16-3C-sY2" customClass="AnalyticsViewController" customModule="demoapp_ios_swift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9lu-Hm-jwK"/>
                         <viewControllerLayoutGuide type="bottom" id="t23-kz-AcJ"/>
@@ -221,7 +221,7 @@
         <!--Service-->
         <scene sceneID="6MD-Fq-6Xe">
             <objects>
-                <viewController storyboardIdentifier="serviceViewController" title="Service" id="Tfs-g6-k2B" customClass="ServiceViewController" customModule="demoapp_ios_swift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="serviceViewController" storyboardIdentifier="serviceViewController" title="Service" id="Tfs-g6-k2B" customClass="ServiceViewController" customModule="demoapp_ios_swift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yeo-iX-TVF"/>
                         <viewControllerLayoutGuide type="bottom" id="fBb-b9-Xja"/>
@@ -281,7 +281,7 @@
         <!--WelcomeViewController-->
         <scene sceneID="Ck0-p5-vM1">
             <objects>
-                <viewController storyboardIdentifier="rootViewController" title="WelcomeViewController" id="9ta-Qc-Kmz" sceneMemberID="viewController">
+                <viewController restorationIdentifier="welcomeViewController" storyboardIdentifier="welcomeViewController" title="WelcomeViewController" id="9ta-Qc-Kmz" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Rn1-AF-qdI"/>
                         <viewControllerLayoutGuide type="bottom" id="6aN-Kc-9RJ"/>

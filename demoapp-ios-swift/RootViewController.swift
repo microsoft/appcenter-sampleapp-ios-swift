@@ -1,119 +1,57 @@
 
   import UIKit
   
-  class RootViewController: UIPageViewController, UIPageViewControllerDataSource {
+class RootViewController: UIPageViewController, UIPageViewControllerDelegate, UIPageViewControllerDataSource {
     
-    var pageViewController: UIPageViewController?
-    var services: [Service] = []
-
-    //MARK: - viewDidLoad
+    let pages = ["crashViewController", "analyticsViewController"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Here, we manually add our services to the Data Model
-        services.append(Service(name: "Build", type: ServiceType.Build))
-        services.append(Service(name: "Test", type: ServiceType.Test))
-        services.append(Service(name: "Distribute", type: ServiceType.Distribute))
-        services.append(Service(name: "Crash", type: ServiceType.Crash))
-        services.append(Service(name: "Analytics", type: ServiceType.Analytics))
-        services.append(Service(name: "Push", type: ServiceType.Push))
-        
-        self.pageViewController = self.storyboard?.instantiateViewController(withIdentifier: "rootViewController") as? UIPageViewController
-        
-        self.pageViewController?.dataSource = self
-
-        let startingViewController: UIViewController = self.viewControllerAtIndex(0, storyboard: self.storyboard!)
-        let viewControllers = [startingViewController]
-        self.pageViewController!.setViewControllers(viewControllers, direction: .forward, animated: false, completion: {done in })
-        
-        self.addChildViewController(self.pageViewController!)
-        self.view.addSubview(self.pageViewController!.view)
-
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    // returns the appropriate viewController depending on the index of the services
-    func viewControllerAtIndex(_ index: Int, storyboard: UIStoryboard) -> UIViewController {
-        // Create a new view controller and pass suitable data.
-        switch services[index].type{
-        case .Crash:
-            let crashViewController = self.storyboard?.instantiateViewController(withIdentifier: "crashViewController") as! CrashViewController
-            return crashViewController
+        self.delegate = self
+        self.dataSource = self
             
-        case .Analytics:
-            let analyticsViewController = self.storyboard?.instantiateViewController(withIdentifier: "analyticsViewController") as! AnalyticsViewController
-            return analyticsViewController
-            
-        default:
-            let selectedservice = services[index] as Service
-            let serviceViewController = self.storyboard?.instantiateViewController(withIdentifier: "serviceViewController") as! ServiceViewController
-            serviceViewController.service = selectedservice
-            serviceViewController.pageIndex = index
-            
-            return serviceViewController
-        }
-        
-    }
-    
-    func indexOfViewController(_ viewController: UIViewController) -> Int {
-        // Return the index of the given data view controller.
-        // For simplicity, this implementation uses a static array of model objects and the view controller stores the model object; you can therefore use the model object to identify the index.
-        
-        var index: Int
-        
-        if viewController is CrashViewController {
-            index = 3
-        }
-        
-        else if viewController is AnalyticsViewController {
-            index = 4
-        }
-        
-        else {
-            let viewController = viewController as! ServiceViewController
-            index = viewController.pageIndex as Int
-        }
-        
-        return index
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "crashViewController")
+        setViewControllers([vc!], // Has to be a single item array, unless you're doing double sided stuff I believe
+            direction: .forward,
+            animated: true,
+            completion: nil)
     }
 
     
-    //MARK: - UIPageViewController protocol functions
-    
-    // Ensure that there is a page to swipe to and from
-    func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
-        
-        var index = self.indexOfViewController(viewController)
-        if (index == 0) || (index == NSNotFound) {
-            return nil
+    func pageViewController(_ pageViewController: UIPageViewController,
+                            viewControllerBefore viewController: UIViewController) -> UIViewController? {
+        if let identifier = viewController.restorationIdentifier {
+            if let index = pages.index(of: identifier) {
+                if index > 0 {
+                    return self.storyboard?.instantiateViewController(withIdentifier: pages[index-1])
+                }
+            }
         }
-        
-        index -= 1
-        return self.viewControllerAtIndex(index, storyboard: viewController.storyboard!)
-        
+        return nil
     }
     
-    func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
-        
-        var index = self.indexOfViewController(viewController)
-        if (index == 0) || (index == NSNotFound) {
-            return nil
+    func pageViewController(_ pageViewController: UIPageViewController,
+                            viewControllerAfter viewController: UIViewController) -> UIViewController? {
+        if let identifier = viewController.restorationIdentifier {
+            if let index = pages.index(of: identifier) {
+                if index < pages.count - 1 {
+                    return self.storyboard?.instantiateViewController(withIdentifier: pages[index+1])
+                }
+            }
         }
-        
-        index += 1
-        return self.viewControllerAtIndex(index, storyboard: viewController.storyboard!)
+        return nil
     }
     
     func presentationCount(for pageViewController: UIPageViewController) -> Int {
-        return self.services.count
+        return pages.count
     }
     
     func presentationIndex(for pageViewController: UIPageViewController) -> Int {
+        if let identifier = viewControllers?.first?.restorationIdentifier {
+            if let index = pages.index(of: identifier) {
+                return index
+            }
+        }
         return 0
     }
 }
-
