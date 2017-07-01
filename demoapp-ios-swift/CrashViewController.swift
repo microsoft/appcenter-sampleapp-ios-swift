@@ -4,8 +4,8 @@ import UIKit
 class CrashViewController: UIViewController {
     
     @IBOutlet weak var fatalErrorButton: UIButton!
-    //@IBOutlet weak var nilValueButton: UIButton!
-    @IBOutlet weak var crashNavigationItem: UINavigationItem!
+    
+    var pageIndex: Int!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,34 +17,8 @@ class CrashViewController: UIViewController {
     }
     
     @IBAction func crashButtonTapped(_ sender: UIButton) {
-//        switch sender {
-//        case fatalErrorButton:
             print("fatalError crash activated")
 //            fatalError()
-//
-//        case nilValueButton:
-//            print("Found nil in optional value crash activated")
-//            let n: Int? = nil
-//            let val = n!
-//            
-//        default:
-//            break
             
         }
-
-//    @IBAction func crashButtonTapped(_ sender: UIButton) {
-//        switch sender {
-//        case fatalErrorButton:
-//            print("fatalError crash activated")
-//            fatalError()
-//
-//        case nilValueButton:
-//            print("Found nil in optional value crash activated")
-//            let n: Int? = nil
-//            let val = n!
-//
-//        default:
-//            break
-//        }
-//    }
 }
