@@ -1,0 +1,26 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/vagrant/git/MobileCenter-SDK-iOS/MobileCenterDistribute.framework/Headers/MSDistributeDelegate.h",
+      "line": 5,
+      "symbol": "MSDistributeDelegate",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vagrant/git/MobileCenter-SDK-iOS/MobileCenterDistribute.framework/Headers/MSDistributeDelegate.h",
+      "line": 7,
+      "symbol": "MSUpdateAction",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vagrant/git/MobileCenter-SDK-iOS/MobileCenterDistribute.framework/Headers/MSDistributeDelegate.h",
+      "line": 7,
+      "symbol": "MSUpdateAction",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/vagrant/git/MobileCenterDistribute"
+}

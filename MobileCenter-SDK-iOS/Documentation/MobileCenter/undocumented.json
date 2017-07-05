@@ -1,0 +1,103 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/vagrant/git/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSAbstractLog.h",
+      "line": 3,
+      "symbol": "MSAbstractLog",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vagrant/git/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSConstants.h",
+      "line": 44,
+      "symbol": "MSLogMessageProvider",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vagrant/git/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSConstants.h",
+      "line": 45,
+      "symbol": "MSLogHandler",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vagrant/git/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSDevice.h",
+      "line": 4,
+      "symbol": "MSDevice",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vagrant/git/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSLogWithProperties.h",
+      "line": 5,
+      "symbol": "MSLogWithProperties",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vagrant/git/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSMobileCenter.h",
+      "line": 8,
+      "symbol": "MSMobileCenter",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vagrant/git/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSMobileCenterErrors.h",
+      "line": 7,
+      "symbol": "kMSMCErrorDomain",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vagrant/git/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSMobileCenterErrors.h",
+      "line": 12,
+      "symbol": "",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vagrant/git/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSMobileCenterErrors.h",
+      "line": 15,
+      "symbol": "kMSMCLogInvalidContainerErrorDesc",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vagrant/git/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSMobileCenterErrors.h",
+      "line": 20,
+      "symbol": "",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vagrant/git/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSMobileCenterErrors.h",
+      "line": 23,
+      "symbol": "kMSMCConnectionHttpErrorDesc",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vagrant/git/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSMobileCenterErrors.h",
+      "line": 24,
+      "symbol": "kMSMCConnectionSuspendedErrorDesc",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vagrant/git/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSMobileCenterErrors.h",
+      "line": 27,
+      "symbol": "kMSMCConnectionHttpCodeErrorKey",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vagrant/git/MobileCenter-SDK-iOS/MobileCenter.framework/Headers/MSWrapperSdk.h",
+      "line": 3,
+      "symbol": "MSWrapperSdk",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/vagrant/git/MobileCenter"
+}
