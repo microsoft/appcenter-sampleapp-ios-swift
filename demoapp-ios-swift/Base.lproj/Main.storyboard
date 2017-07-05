@@ -93,7 +93,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.47886949777603149" green="0.67019110918045044" blue="0.20451867580413818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.43517515063285828" green="0.63688355684280396" blue="0.18115299940109253" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="mVf-36-DV2" firstAttribute="bottom" secondItem="Ag0-t7-gPu" secondAttribute="top" id="E2n-sd-Y5v"/>
                             <constraint firstItem="mVf-36-DV2" firstAttribute="top" secondItem="gvU-QS-cyl" secondAttribute="bottom" id="Lmz-fq-9FV"/>
@@ -199,7 +199,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.99582773447036743" green="0.71483296155929565" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.99585908651351929" green="0.67838549613952637" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="cAX-1i-Hh0" firstAttribute="leading" secondItem="qyS-zz-Rpm" secondAttribute="leading" id="7Kq-rm-T65"/>
                             <constraint firstItem="cAX-1i-Hh0" firstAttribute="top" secondItem="9lu-Hm-jwK" secondAttribute="bottom" id="UiI-X2-uNR"/>
@@ -217,66 +217,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lkf-qW-vCs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2559" y="-693"/>
-        </scene>
-        <!--Service-->
-        <scene sceneID="6MD-Fq-6Xe">
-            <objects>
-                <viewController restorationIdentifier="serviceViewController" storyboardIdentifier="serviceViewController" title="Service" id="Tfs-g6-k2B" customClass="ServiceViewController" customModule="demoapp_ios_swift" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="yeo-iX-TVF"/>
-                        <viewControllerLayoutGuide type="bottom" id="fBb-b9-Xja"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="xnE-FP-vEA">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3Pm-Hp-ksu">
-                                <rect key="frame" x="0.0" y="20" width="375" height="235"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="235" id="sXA-SK-duR"/>
-                                </constraints>
-                            </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UC5-OS-dsX">
-                                <rect key="frame" x="0.0" y="255" width="375" height="412"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Put text here" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VdH-Sm-rdd">
-                                        <rect key="frame" x="29" y="22" width="317" height="181"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="181" id="iLu-pj-V4D"/>
-                                        </constraints>
-                                        <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                </subviews>
-                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstItem="VdH-Sm-rdd" firstAttribute="centerX" secondItem="UC5-OS-dsX" secondAttribute="centerX" id="pmR-lb-sNb"/>
-                                    <constraint firstItem="VdH-Sm-rdd" firstAttribute="leading" secondItem="UC5-OS-dsX" secondAttribute="leading" constant="29" id="vPf-iA-Yxr"/>
-                                    <constraint firstItem="VdH-Sm-rdd" firstAttribute="top" secondItem="UC5-OS-dsX" secondAttribute="top" constant="22" id="xZq-dF-n12"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="3Pm-Hp-ksu" firstAttribute="leading" secondItem="UC5-OS-dsX" secondAttribute="leading" id="BkK-z7-Gtn"/>
-                            <constraint firstAttribute="trailing" secondItem="3Pm-Hp-ksu" secondAttribute="trailing" id="CU8-HQ-Gzv"/>
-                            <constraint firstItem="UC5-OS-dsX" firstAttribute="top" secondItem="3Pm-Hp-ksu" secondAttribute="bottom" id="Dro-7u-xMb"/>
-                            <constraint firstItem="3Pm-Hp-ksu" firstAttribute="top" secondItem="yeo-iX-TVF" secondAttribute="bottom" id="FeZ-YY-zWR"/>
-                            <constraint firstItem="UC5-OS-dsX" firstAttribute="bottom" secondItem="fBb-b9-Xja" secondAttribute="top" id="PeY-oo-QiN"/>
-                            <constraint firstItem="3Pm-Hp-ksu" firstAttribute="trailing" secondItem="UC5-OS-dsX" secondAttribute="trailing" id="WAR-C9-Y2b"/>
-                            <constraint firstItem="3Pm-Hp-ksu" firstAttribute="leading" secondItem="xnE-FP-vEA" secondAttribute="leading" id="sXU-bk-YaU"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="serviceBackground" destination="UC5-OS-dsX" id="atY-vZ-bXP"/>
-                        <outlet property="serviceImageView" destination="3Pm-Hp-ksu" id="K7i-wu-RIH"/>
-                        <outlet property="serviceText" destination="VdH-Sm-rdd" id="FKO-aw-OQO"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Z5r-qh-OaP" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1841" y="-693"/>
         </scene>
         <!--WelcomeViewController-->
         <scene sceneID="Ck0-p5-vM1">
@@ -343,10 +283,250 @@
             </objects>
             <point key="canvasLocation" x="1096.8" y="-693.10344827586209"/>
         </scene>
+        <!--Build-->
+        <scene sceneID="KoO-kq-7DR">
+            <objects>
+                <viewController restorationIdentifier="buildViewController" storyboardIdentifier="buildViewController" title="Build" id="wb6-ZE-ej2" customClass="CrashViewController" customModule="demoapp_ios_swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BXq-LH-kwl"/>
+                        <viewControllerLayoutGuide type="bottom" id="jel-hk-P0J"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mJz-qL-7eL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Build" translatesAutoresizingMaskIntoConstraints="NO" id="Mgv-eG-8xV">
+                                <rect key="frame" x="0.0" y="20" width="375" height="235"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rRb-7n-KEe">
+                                <rect key="frame" x="0.0" y="255" width="375" height="412"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2D0-l4-8mX">
+                                        <rect key="frame" x="29" y="22" width="317" height="167"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="167" id="ebK-Ne-Gda"/>
+                                        </constraints>
+                                        <string key="text">Create an installable app package automatically with every push to your repository. Supports GitHub, or Git repos on Bitbucket and Visual Studio Team Services (VSTS).</string>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="No additional build hardware required." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XYs-pb-PZM">
+                                        <rect key="frame" x="29" y="153" width="317" height="61"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="61" id="u1U-Qe-5d0"/>
+                                        </constraints>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.011772924102842808" green="0.5136868953704834" blue="0.86273235082626343" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="2D0-l4-8mX" firstAttribute="top" secondItem="rRb-7n-KEe" secondAttribute="top" constant="22" id="6uY-FS-Ryo"/>
+                                    <constraint firstItem="2D0-l4-8mX" firstAttribute="leading" secondItem="rRb-7n-KEe" secondAttribute="leading" constant="29" id="Jc9-fb-XUF"/>
+                                    <constraint firstItem="2D0-l4-8mX" firstAttribute="leading" secondItem="XYs-pb-PZM" secondAttribute="leading" id="Y1a-aV-5Di"/>
+                                    <constraint firstItem="2D0-l4-8mX" firstAttribute="trailing" secondItem="XYs-pb-PZM" secondAttribute="trailing" id="afo-an-Wf7"/>
+                                    <constraint firstItem="2D0-l4-8mX" firstAttribute="centerX" secondItem="rRb-7n-KEe" secondAttribute="centerX" id="dxX-ck-37o"/>
+                                    <constraint firstItem="XYs-pb-PZM" firstAttribute="top" secondItem="rRb-7n-KEe" secondAttribute="top" constant="153" id="tYn-dF-DxV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0098618874326348305" green="0.39412325620651245" blue="0.76743966341018677" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Mgv-eG-8xV" firstAttribute="trailing" secondItem="rRb-7n-KEe" secondAttribute="trailing" id="KoF-qM-XJM"/>
+                            <constraint firstItem="Mgv-eG-8xV" firstAttribute="leading" secondItem="rRb-7n-KEe" secondAttribute="leading" id="SnT-vk-dAf"/>
+                            <constraint firstItem="Mgv-eG-8xV" firstAttribute="top" secondItem="BXq-LH-kwl" secondAttribute="bottom" id="h2X-wd-arv"/>
+                            <constraint firstItem="rRb-7n-KEe" firstAttribute="bottom" secondItem="jel-hk-P0J" secondAttribute="top" id="l2G-88-XFP"/>
+                            <constraint firstItem="Mgv-eG-8xV" firstAttribute="leading" secondItem="mJz-qL-7eL" secondAttribute="leading" id="nkm-Z5-wiP"/>
+                            <constraint firstItem="rRb-7n-KEe" firstAttribute="top" secondItem="Mgv-eG-8xV" secondAttribute="bottom" id="uc3-3M-2Na"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qmX-zg-0vs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4001" y="-693"/>
+        </scene>
+        <!--Test-->
+        <scene sceneID="dfA-p2-kVb">
+            <objects>
+                <viewController restorationIdentifier="testViewController" storyboardIdentifier="testViewController" title="Test" id="I3A-0X-sql" customClass="CrashViewController" customModule="demoapp_ios_swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AJK-mN-NzV"/>
+                        <viewControllerLayoutGuide type="bottom" id="cDd-sO-K1R"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ha7-N2-Sfp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Test" translatesAutoresizingMaskIntoConstraints="NO" id="p8u-oj-esN">
+                                <rect key="frame" x="0.0" y="20" width="375" height="235"/>
+                                <color key="backgroundColor" red="0.96572738885879517" green="0.96304351091384888" blue="0.96583777666091919" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wac-vE-eec">
+                                <rect key="frame" x="0.0" y="255" width="375" height="412"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BrC-dV-QZD">
+                                        <rect key="frame" x="29" y="22" width="317" height="167"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="167" id="J1G-4a-s0e"/>
+                                        </constraints>
+                                        <string key="text">Run your tests on more than 400 unique device configurations. Tests can be written for iOS and Android apps with Zamarin. UITest, Appium, Espresso (Android), and XCUITest (iOS).</string>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Backed by Xamarin Test Cloud." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nGU-ng-suj">
+                                        <rect key="frame" x="29" y="153" width="317" height="61"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.14062592387199402" green="0.72024589776992798" blue="0.83113712072372437" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="BrC-dV-QZD" firstAttribute="centerX" secondItem="wac-vE-eec" secondAttribute="centerX" id="FJI-KE-K5y"/>
+                                    <constraint firstItem="BrC-dV-QZD" firstAttribute="leading" secondItem="wac-vE-eec" secondAttribute="leading" constant="29" id="ddd-cY-SRP"/>
+                                    <constraint firstItem="BrC-dV-QZD" firstAttribute="top" secondItem="wac-vE-eec" secondAttribute="top" constant="22" id="lwF-0i-c0t"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.19249841570854187" green="0.57584249973297119" blue="0.7024383544921875" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="p8u-oj-esN" firstAttribute="trailing" secondItem="wac-vE-eec" secondAttribute="trailing" id="4AU-AB-YWg"/>
+                            <constraint firstItem="wac-vE-eec" firstAttribute="bottom" secondItem="cDd-sO-K1R" secondAttribute="top" id="CXs-8I-TqI"/>
+                            <constraint firstItem="p8u-oj-esN" firstAttribute="leading" secondItem="wac-vE-eec" secondAttribute="leading" id="Cpr-XJ-uXf"/>
+                            <constraint firstItem="wac-vE-eec" firstAttribute="top" secondItem="p8u-oj-esN" secondAttribute="bottom" id="cxi-rO-DyZ"/>
+                            <constraint firstItem="p8u-oj-esN" firstAttribute="leading" secondItem="Ha7-N2-Sfp" secondAttribute="leading" id="tol-wY-TIB"/>
+                            <constraint firstItem="p8u-oj-esN" firstAttribute="top" secondItem="AJK-mN-NzV" secondAttribute="bottom" id="zh3-1N-dmP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9TI-2f-HOu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4656.8000000000002" y="-693.10344827586209"/>
+        </scene>
+        <!--Distribute-->
+        <scene sceneID="HXv-Ig-Ehl">
+            <objects>
+                <viewController restorationIdentifier="distributeViewController" storyboardIdentifier="distributeViewController" title="Distribute" id="VFF-65-64h" customClass="CrashViewController" customModule="demoapp_ios_swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ISU-od-pKP"/>
+                        <viewControllerLayoutGuide type="bottom" id="X0F-SN-dBf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xvq-b8-qkt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Distribute" translatesAutoresizingMaskIntoConstraints="NO" id="oSl-f8-pr1">
+                                <rect key="frame" x="0.0" y="20" width="375" height="235"/>
+                                <color key="backgroundColor" red="0.96572738889999998" green="0.96304351089999995" blue="0.96583777670000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3JK-6e-brl">
+                                <rect key="frame" x="0.0" y="255" width="375" height="412"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Users can install the app via email distribution lists for testing, much as they'd download an app from the app store." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mm5-Ej-rnO">
+                                        <rect key="frame" x="29" y="22" width="317" height="167"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="167" id="Hj9-Fg-fLC"/>
+                                        </constraints>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Backed by HockeyApp." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MXY-L0-K79">
+                                        <rect key="frame" x="29" y="128" width="317" height="61"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.3074583113193512" green="0.75310617685317993" blue="0.69504851102828979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="mm5-Ej-rnO" firstAttribute="leading" secondItem="3JK-6e-brl" secondAttribute="leading" constant="29" id="BsH-8n-HPV"/>
+                                    <constraint firstItem="mm5-Ej-rnO" firstAttribute="top" secondItem="3JK-6e-brl" secondAttribute="top" constant="22" id="DbA-dT-f5H"/>
+                                    <constraint firstItem="mm5-Ej-rnO" firstAttribute="centerX" secondItem="3JK-6e-brl" secondAttribute="centerX" id="Yri-LQ-17V"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.21441125869750977" green="0.64373242855072021" blue="0.58368057012557983" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3JK-6e-brl" firstAttribute="bottom" secondItem="X0F-SN-dBf" secondAttribute="top" id="Fed-XP-MgS"/>
+                            <constraint firstItem="oSl-f8-pr1" firstAttribute="leading" secondItem="xvq-b8-qkt" secondAttribute="leading" id="GeJ-Zq-bmD"/>
+                            <constraint firstItem="oSl-f8-pr1" firstAttribute="leading" secondItem="3JK-6e-brl" secondAttribute="leading" id="t0W-CO-gkW"/>
+                            <constraint firstItem="3JK-6e-brl" firstAttribute="top" secondItem="oSl-f8-pr1" secondAttribute="bottom" id="x4c-bm-R2f"/>
+                            <constraint firstItem="oSl-f8-pr1" firstAttribute="top" secondItem="ISU-od-pKP" secondAttribute="bottom" id="yeq-Qf-CfY"/>
+                            <constraint firstItem="oSl-f8-pr1" firstAttribute="trailing" secondItem="3JK-6e-brl" secondAttribute="trailing" id="zcP-gQ-hlX"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TBb-2c-yPd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5321" y="-693"/>
+        </scene>
+        <!--Push-->
+        <scene sceneID="OdX-dx-cDM">
+            <objects>
+                <viewController restorationIdentifier="pushViewController" storyboardIdentifier="pushViewController" title="Push" id="Rg7-ja-XhH" customClass="CrashViewController" customModule="demoapp_ios_swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wdV-RU-Gww"/>
+                        <viewControllerLayoutGuide type="bottom" id="JZA-FH-mr0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="o5h-jd-LXM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Push" translatesAutoresizingMaskIntoConstraints="NO" id="kLM-IM-NCi">
+                                <rect key="frame" x="0.0" y="20" width="375" height="235"/>
+                                <color key="backgroundColor" red="0.96572738889999998" green="0.96304351089999995" blue="0.96583777670000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nvu-xs-NZN">
+                                <rect key="frame" x="0.0" y="255" width="375" height="412"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4eD-3E-nXr">
+                                        <rect key="frame" x="29" y="22" width="317" height="167"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="167" id="9VN-XA-CnQ"/>
+                                        </constraints>
+                                        <string key="text">Engage your users by sending them targeted messages to specific sets of users at exactly the right time. Create segments of users based on device and custom properties. </string>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96553856134414673" green="0.47338962554931641" blue="0.34525638818740845" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="4eD-3E-nXr" firstAttribute="leading" secondItem="Nvu-xs-NZN" secondAttribute="leading" constant="29" id="Iqq-1m-vBf"/>
+                                    <constraint firstItem="4eD-3E-nXr" firstAttribute="top" secondItem="Nvu-xs-NZN" secondAttribute="top" constant="22" id="JIy-fF-u3d"/>
+                                    <constraint firstItem="4eD-3E-nXr" firstAttribute="centerX" secondItem="Nvu-xs-NZN" secondAttribute="centerX" id="lM6-aG-iHZ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88657617568969727" green="0.33086201548576355" blue="0.23667207360267639" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kLM-IM-NCi" firstAttribute="leading" secondItem="Nvu-xs-NZN" secondAttribute="leading" id="5Th-V9-BjV"/>
+                            <constraint firstItem="Nvu-xs-NZN" firstAttribute="bottom" secondItem="JZA-FH-mr0" secondAttribute="top" id="9Gv-7H-Ye8"/>
+                            <constraint firstItem="kLM-IM-NCi" firstAttribute="leading" secondItem="o5h-jd-LXM" secondAttribute="leading" id="DVe-r9-mPQ"/>
+                            <constraint firstItem="kLM-IM-NCi" firstAttribute="top" secondItem="wdV-RU-Gww" secondAttribute="bottom" id="h5w-jY-zjI"/>
+                            <constraint firstItem="kLM-IM-NCi" firstAttribute="trailing" secondItem="Nvu-xs-NZN" secondAttribute="trailing" id="uv9-jI-W3B"/>
+                            <constraint firstItem="Nvu-xs-NZN" firstAttribute="top" secondItem="kLM-IM-NCi" secondAttribute="bottom" id="xpU-kH-Yoa"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Po-Ce-F1r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6023" y="-693"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Analytics" width="375" height="235"/>
+        <image name="Build" width="375" height="235"/>
         <image name="Crashes" width="375" height="235"/>
+        <image name="Distribute" width="375" height="235"/>
         <image name="MCLogo" width="375" height="138"/>
+        <image name="Push" width="375" height="235"/>
+        <image name="Test" width="375" height="235"/>
     </resources>
 </document>
