@@ -1,0 +1,47 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/vagrant/git/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSAbstractLog.h",
+      "line": 3,
+      "symbol": "MSAbstractLog",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vagrant/git/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSCrashes.h",
+      "line": 52,
+      "symbol": "MSCrashes",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vagrant/git/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSCrashesDelegate.h",
+      "line": 7,
+      "symbol": "MSCrashesDelegate",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vagrant/git/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSErrorAttachmentLog+Utility.h",
+      "line": 4,
+      "symbol": "MSMSErrorLogAttachmentLogUtilityCategory",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vagrant/git/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSErrorAttachmentLog+Utility.h",
+      "line": 6,
+      "symbol": "MSErrorAttachmentLog(Utility)",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vagrant/git/MobileCenter-SDK-iOS/MobileCenterCrashes.framework/Headers/MSErrorReport.h",
+      "line": 5,
+      "symbol": "MSErrorReport",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/vagrant/git/MobileCenterCrashes"
+}

@@ -1,5 +1,10 @@
 
 import UIKit
+import MobileCenter
+import MobileCenterDistribute
+import MobileCenterAnalytics
+import MobileCenterCrashes
+import MobileCenterPush
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -8,6 +13,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        MSMobileCenter.start("{Your App Secret}", withServices: [MSDistribute.self, MSAnalytics.self, MSCrashes.self, MSPush.self])
+        
         // Override point for customization after application launch.
         
         UIPageControl.appearance().pageIndicatorTintColor = UIColor.lightGray
