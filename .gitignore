@@ -1,4 +1,7 @@
 # Xcode
+# Mac
+#
+.DS_Store
 
 ## Build generated
 build/
@@ -25,15 +28,3 @@ xcuserdata/
 *.ipa
 *.dSYM.zip
 *.dSYM
-
-## Playgrounds
-timeline.xctimeline
-playground.xcworkspace
-
-# CocoaPods
-#
-# Necessary, not included. 
-
-# Carthage
-#
-# We didn't use this. 
