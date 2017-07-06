@@ -1,6 +1,0 @@
-framework module VSMobileCenterExtensions {
-  umbrella header "VSMobileCenterExtensions-umbrella.h"
-
-  export *
-  module * { export * }
-}

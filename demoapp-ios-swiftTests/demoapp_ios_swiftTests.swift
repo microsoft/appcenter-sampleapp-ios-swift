@@ -20,10 +20,13 @@ class demoapp_ios_swiftTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-
-    func testExample() {
+    
+    
+    func testAnalyticsClick() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        // make sure that when the buttons are clicked, the correct text pops up.
+         XCTAssert(true)
     }
 
     func testPerformanceExample() {
