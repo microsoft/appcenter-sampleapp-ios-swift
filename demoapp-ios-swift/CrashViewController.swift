@@ -5,8 +5,6 @@ class CrashViewController: UIViewController {
 
     @IBOutlet weak var fatalErrorButton: UIButton!
 
-    var pageIndex: Int!
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -17,7 +15,6 @@ class CrashViewController: UIViewController {
     }
 
     @IBAction func crashButtonTapped(_: UIButton) {
-        print("fatalError crash activated")
         fatalError()
     }
 }

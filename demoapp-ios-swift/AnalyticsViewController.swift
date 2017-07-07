@@ -6,8 +6,6 @@ class AnalyticsViewController: UIViewController {
     @IBOutlet weak var customEventButton: UIButton!
     @IBOutlet weak var customColorButton: UIButton!
 
-    var pageIndex: Int!
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
