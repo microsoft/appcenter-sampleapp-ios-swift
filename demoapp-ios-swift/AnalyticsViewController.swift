@@ -20,6 +20,7 @@ class AnalyticsViewController: UIViewController {
         switch sender {
         case customEventButton:
             print("sample event button pressed")
+            
         case customColorButton:
             print("custom color property button pressed")
 
