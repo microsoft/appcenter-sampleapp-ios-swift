@@ -2,7 +2,9 @@
 target 'demoapp-ios-swift' do
   use_frameworks!
 
-  pod 'MobileCenter'
+  pod 'MobileCenter’
+  pod 'MobileCenter/Analytics'
+  pod 'MobileCenter/Crashes'
   pod 'MobileCenter/Push'
 
   target 'demoapp-ios-swiftTests' do
