@@ -22,13 +22,22 @@ class demoapp_ios_swiftTests: XCTestCase {
     }
     
     
-    func testAnalyticsClick() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // make sure that when the buttons are clicked, the correct text pops up.
-         XCTAssert(true)
+    func testAnalyticsTap() {
+        // isolate each class, control inputs, assert outputs
+        // make sure that when the buttons are tapped, the correct text pops up.
+        let model = XCUIApplication()
+        model.buttons["customEventButton"].tap()
+       let labelValue = model.staticTexts["controlLabel"]
+       // XCTAssert(true) is the basis of the test
+        XCTAssert(labelValue.label == "sample event button pressed")
     }
 
+    // assert that pageview is on the screen
+    func assertPageView() {
+        
+        
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         measure {

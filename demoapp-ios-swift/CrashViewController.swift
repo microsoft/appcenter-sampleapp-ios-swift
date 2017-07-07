@@ -1,5 +1,6 @@
 
 import UIKit
+import MobileCenterCrashes
 
 class CrashViewController: UIViewController {
     
