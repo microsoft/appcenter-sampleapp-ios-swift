@@ -19,7 +19,8 @@ class AnalyticsViewController: UIViewController {
     @IBAction func analyticsButtonTapped(_ sender: UIButton) {
         switch sender {
         case customEventButton:
-            print("sample event button pressed")
+            print("TODO: send a custom alert via Cocoapods")
+            presentCustomEventAlert()
             
         case customColorButton:
             print("custom color property button pressed")
@@ -27,5 +28,18 @@ class AnalyticsViewController: UIViewController {
         default:
             break
         }
+    }
+    
+    func presentCustomEventAlert() {
+        let alert = UIAlertController(title: "Event sent",
+                                      message: "",
+                                      preferredStyle: UIAlertControllerStyle.alert)
+        
+        // OK Button
+        alert.addAction(UIAlertAction(title: "OK",
+                                      style: UIAlertActionStyle.default,
+                                      handler: { (action) in alert.dismiss(animated: true, completion: nil)
+        }))
+        self.present(alert, animated:true, completion: nil)
     }
 }
