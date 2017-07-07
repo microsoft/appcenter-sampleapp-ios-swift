@@ -13,7 +13,10 @@ class demoapp_ios_swiftTests: XCTestCase {
 
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        // called before test methods
+        // instantiate view controller
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        vc = storyboard.instantiateInitialViewController() as! ViewController
     }
 
     override func tearDown() {
@@ -22,21 +25,17 @@ class demoapp_ios_swiftTests: XCTestCase {
     }
     
     
-    func testAnalyticsTap() {
+    func testAnalyticsValues() {
         // isolate each class, control inputs, assert outputs
         // make sure that when the buttons are tapped, the correct text pops up.
-        let model = XCUIApplication()
-        model.buttons["customEventButton"].tap()
-       let labelValue = model.textFields["controlLabel"]
+        vc.analyticsButtonTapped()
+        // let model = XCUIApplication()
+        // model.buttons["customEventButton"].tap()
+       let labelValue = model.staticTexts["customLabel"]
        // XCTAssert(true) is the basis of the test
-        XCTAssert(labelValue.title == "sample event button pressed")
+        XCTAssert(labelValue.label == "sample event button pressed")
     }
 
-    // assert that pageview is on the screen
-    func assertPageView() {
-        
-        
-    }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
