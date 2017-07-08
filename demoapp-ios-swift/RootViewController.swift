@@ -24,7 +24,6 @@ class RootViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         dataSource = self
 
         // set the starting viewController, in this case it is welcomeViewController
-        // TODO: change to tableViewController
         let startingViewController = storyboard?.instantiateViewController(withIdentifier: "welcomeViewController")
         setViewControllers([startingViewController!],
                            direction: .forward,

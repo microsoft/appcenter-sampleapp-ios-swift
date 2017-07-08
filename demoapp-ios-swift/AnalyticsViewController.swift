@@ -19,12 +19,60 @@ class AnalyticsViewController: UIViewController {
     @IBAction func analyticsButtonTapped(_ sender: UIButton) {
         switch sender {
         case customEventButton:
-            print("sample event button pressed")
+            print("TODO: send a custom alert via Cocoapods")
+            presentCustomEventAlert()
+            
         case customColorButton:
             print("custom color property button pressed")
+            presentColorPropertyAlert()
 
         default:
             break
         }
+    }
+    
+    // - MARK: Alert Functions
+    
+    func presentCustomEventAlert() {
+        let alert = UIAlertController(title: "Event sent",
+                                      message: "",
+                                      preferredStyle: UIAlertControllerStyle.alert)
+        
+        // OK Button
+        alert.addAction(UIAlertAction(title: "OK",
+                                      style: UIAlertActionStyle.default,
+                                      handler: { (action) in alert.dismiss(animated: true, completion: nil)
+        }))
+        self.present(alert, animated:true, completion: nil)
+    }
+    
+    func presentColorPropertyAlert() {
+        let alert = UIAlertController(title: "Choose a color",
+                                      message: "",
+                                      preferredStyle: .alert)
+        alert.view.tintColor = UIColor.black
+        
+        // Yellow button
+        alert.addAction(UIAlertAction(title: "Yellow",
+                                      style: .default,
+                                      handler: { (action) in alert.dismiss(animated: true, completion: nil)
+        }))
+        //TODO: send yellow event here
+
+        // Blue button
+        alert.addAction(UIAlertAction(title: "Blue",
+                                      style: .default,
+                                      handler: { (action) in alert.dismiss(animated: true, completion: nil)
+        }))
+        //TODO: send blue event here
+        
+        // Red button
+        alert.addAction(UIAlertAction(title: "Red",
+                                      style: .default,
+                                      handler: { (action) in alert.dismiss(animated: true, completion: nil)
+        }))
+        //TODO: send Red event here
+        
+        self.present(alert, animated:true, completion: nil)
     }
 }
