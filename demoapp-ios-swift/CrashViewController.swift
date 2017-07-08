@@ -18,6 +18,7 @@ class CrashViewController: UIViewController {
         presentCrashAlert()
     }
     
+    //- MARK: Alert Functions
     func presentCrashAlert() {
         let alert = UIAlertController(title: "The app will close",
                                       message: "A crash report will be sent upon RE-LAUNCHING the app.",
