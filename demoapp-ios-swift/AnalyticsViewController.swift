@@ -36,11 +36,11 @@ class AnalyticsViewController: UIViewController {
     func presentCustomEventAlert() {
         let alert = UIAlertController(title: "Event sent",
                                       message: "",
-                                      preferredStyle: UIAlertControllerStyle.alert)
+                                      preferredStyle: .alert)
         
         // OK Button
         alert.addAction(UIAlertAction(title: "OK",
-                                      style: UIAlertActionStyle.default,
+                                      style: .default,
                                       handler: { (action) in alert.dismiss(animated: true, completion: nil)
         }))
         self.present(alert, animated:true, completion: nil)
