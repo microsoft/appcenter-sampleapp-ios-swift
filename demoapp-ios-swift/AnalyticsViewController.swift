@@ -20,7 +20,7 @@ class AnalyticsViewController: UIViewController {
         switch sender {
         case customEventButton:
             print("TODO: send a custom alert via Cocoapods")
-            presentCustomAlert()
+            presentCustomEventAlert()
             
         case customColorButton:
             print("custom color property button pressed")
@@ -33,7 +33,7 @@ class AnalyticsViewController: UIViewController {
     
     // - MARK: Alert Functions
     
-    func presentCustomAlert() {
+    func presentCustomEventAlert() {
         let alert = UIAlertController(title: "Event sent",
                                       message: "",
                                       preferredStyle: UIAlertControllerStyle.alert)
