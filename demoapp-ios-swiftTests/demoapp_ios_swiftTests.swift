@@ -14,9 +14,6 @@ class demoapp_ios_swiftTests: XCTestCase {
     override func setUp() {
         super.setUp()
         // called before test methods
-        // instantiate view controller
-        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        vc = storyboard.instantiateInitialViewController() as! ViewController
     }
 
     override func tearDown() {
@@ -24,18 +21,14 @@ class demoapp_ios_swiftTests: XCTestCase {
         super.tearDown()
     }
     
-    
-    func testAnalyticsValues() {
-        // isolate each class, control inputs, assert outputs
-        // make sure that when the buttons are tapped, the correct text pops up.
-        vc.analyticsButtonTapped()
-        // let model = XCUIApplication()
-        // model.buttons["customEventButton"].tap()
-       let labelValue = model.staticTexts["customLabel"]
-       // XCTAssert(true) is the basis of the test
-        XCTAssert(labelValue.label == "sample event button pressed")
+    // test the crash view controller
+    func test(){
+        // prepare the test
+        var viewController: UIViewController!
+        
+        
     }
-
+    
     
     func testPerformanceExample() {
         // This is an example of a performance test case.

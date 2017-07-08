@@ -28,7 +28,8 @@ class demoapp_ios_swiftUITests: XCTestCase {
         super.tearDown()
     }
 
-    func testExample() {
+    // make sure that the user is able to swipe from the crashes page to the analytics page
+    func testSwipe() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
