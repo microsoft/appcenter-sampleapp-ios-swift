@@ -30,4 +30,3 @@ Podfile.lock
 *.ipa
 *.dSYM.zip
 *.dSYM
-demoapp-ios-swift.xcworkspace
