@@ -13,7 +13,7 @@ class demoapp_ios_swiftTests: XCTestCase {
 
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        // method called before invocation of each test method in class.
     }
 
     override func tearDown() {
@@ -21,9 +21,10 @@ class demoapp_ios_swiftTests: XCTestCase {
         super.tearDown()
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testCrashViewControllerLoads() {
+        // test to ensure that the crash view controller loads.
+        let vc = CrashViewController()
+        XCTAssertNotNil(vc.view, "View did not load for CrashViewController.")
     }
 
     func testPerformanceExample() {
