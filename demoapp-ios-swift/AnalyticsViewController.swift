@@ -1,5 +1,6 @@
 
 import UIKit
+import MobileCenterAnalytics
 
 class AnalyticsViewController: UIViewController {
 
@@ -19,8 +20,8 @@ class AnalyticsViewController: UIViewController {
     @IBAction func analyticsButtonTapped(_ sender: UIButton) {
         switch sender {
         case customEventButton:
-            MSAnalytics.trackEvent("sample event")
-            print("TODO: send a custom alert via Cocoapods")
+            MSAnalytics.trackEvent("Sample event")
+            print("send a custom alert via Cocoapods")
             presentCustomEventAlert()
             
         case customColorButton:
@@ -31,7 +32,7 @@ class AnalyticsViewController: UIViewController {
             break
         }
     }
-    
+
     // - MARK: Alert Functions
     
     func presentCustomEventAlert() {
@@ -59,7 +60,7 @@ class AnalyticsViewController: UIViewController {
                                       handler: { (action) in alert.dismiss(animated: true, completion: nil)
         }))
         // sent yellow event here
-        MSAnalytics.trackEvent("color event", withProperties: ["yellow"])
+        MSAnalytics.trackEvent("Color event", withProperties: ["Color" : "Yellow"])
 
         // Blue button
         alert.addAction(UIAlertAction(title: "Blue",
@@ -67,7 +68,7 @@ class AnalyticsViewController: UIViewController {
                                       handler: { (action) in alert.dismiss(animated: true, completion: nil)
         }))
         //sent blue event here
-         MSAnalytics.trackEvent("color event", withProperties: ["blue"])
+         MSAnalytics.trackEvent("Color event", withProperties: ["Color" : "Blue"])
         
         // Red button
         alert.addAction(UIAlertAction(title: "Red",
@@ -75,7 +76,7 @@ class AnalyticsViewController: UIViewController {
                                       handler: { (action) in alert.dismiss(animated: true, completion: nil)
         }))
         //sent red event here
-        MSAnalytics.trackEvent("color event", withProperties: ["red"])
+        MSAnalytics.trackEvent("Color event", withProperties: ["Color" : "Red"])
         
         self.present(alert, animated:true, completion: nil)
     }
