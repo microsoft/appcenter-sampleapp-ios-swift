@@ -23,10 +23,25 @@ class demoapp_ios_swiftTests: XCTestCase {
     }
 
     func testPresentationCountFunctionality() {
-        // 
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        // test to make sure that the RootViewController func presentationCount returns the correct value
+        
+        XCTAssert(true)
     }
-
+    
+    func testCrashAlertViewShows(){
+        class FakeAlert : CrashViewController {
+            var controllerWasCalled = false
+            
+            override func presentCrashAlert(){
+                controllerWasCalled = true
+            }
+        }
+        let vc = CrashViewController()
+        vc.alertView = UIAlertController()
+        vc.viewDidLoad()
+        XCTAssertTrue((vc.alertView as UIAlertController).controllerWasCalled, "alert was not called.")
+    }
+        
     func testPerformanceExample() {
         // This is an example of a performance test case.
         measure {
