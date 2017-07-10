@@ -19,6 +19,7 @@ class AnalyticsViewController: UIViewController {
     @IBAction func analyticsButtonTapped(_ sender: UIButton) {
         switch sender {
         case customEventButton:
+            MSAnalytics.trackEvent("sample event")
             print("TODO: send a custom alert via Cocoapods")
             presentCustomEventAlert()
             
@@ -57,21 +58,24 @@ class AnalyticsViewController: UIViewController {
                                       style: .default,
                                       handler: { (action) in alert.dismiss(animated: true, completion: nil)
         }))
-        //TODO: send yellow event here
+        // sent yellow event here
+        MSAnalytics.trackEvent("color event", withProperties: ["yellow"])
 
         // Blue button
         alert.addAction(UIAlertAction(title: "Blue",
                                       style: .default,
                                       handler: { (action) in alert.dismiss(animated: true, completion: nil)
         }))
-        //TODO: send blue event here
+        //sent blue event here
+         MSAnalytics.trackEvent("color event", withProperties: ["blue"])
         
         // Red button
         alert.addAction(UIAlertAction(title: "Red",
                                       style: .default,
                                       handler: { (action) in alert.dismiss(animated: true, completion: nil)
         }))
-        //TODO: send Red event here
+        //sent red event here
+        MSAnalytics.trackEvent("color event", withProperties: ["red"])
         
         self.present(alert, animated:true, completion: nil)
     }

@@ -33,6 +33,8 @@ class CrashViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "Crash app",
                                       style: UIAlertActionStyle.destructive,
                                       handler: { (action) in alert.dismiss(animated: true, completion: nil)
+        // generate test crash 
+        MSCrashes.generateTestCrash()
             fatalError()
         }))
         

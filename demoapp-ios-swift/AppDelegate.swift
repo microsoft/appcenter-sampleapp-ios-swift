@@ -13,8 +13,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         MSMobileCenter.start("YourAppSecret", withServices:[
             MSAnalytics.self,
-            MSAnalytics.trackEvent("Video clicked", withProperties: ["Category" : "Music", "FileName" : "favorite.avi"]),
-            MSAnalytics.trackEvent("Video clicked", withProperties: ["Category" : "Music", "FileName" : "favorite.avi"]),
             MSCrashes.self
             ])
         return true
