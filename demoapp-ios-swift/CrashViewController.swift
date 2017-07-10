@@ -17,25 +17,25 @@ class CrashViewController: UIViewController {
     @IBAction func crashButtonTapped(_: UIButton) {
         presentCrashAlert()
     }
-    
-    //- MARK: Alert Functions
+
+    // - MARK: Alert Functions
     func presentCrashAlert() {
         let alert = UIAlertController(title: "The app will close",
                                       message: "A crash report will be sent upon RE-LAUNCHING the app.",
                                       preferredStyle: UIAlertControllerStyle.alert)
-        
+
         // Cancel Button
         alert.addAction(UIAlertAction(title: "Cancel",
                                       style: UIAlertActionStyle.default,
-                                      handler: { (action) in alert.dismiss(animated: true, completion: nil)
+                                      handler: { _ in alert.dismiss(animated: true, completion: nil)
         }))
         // Crash App button
         alert.addAction(UIAlertAction(title: "Crash app",
                                       style: UIAlertActionStyle.destructive,
-                                      handler: { (action) in alert.dismiss(animated: true, completion: nil)
-            fatalError()
+                                      handler: { _ in alert.dismiss(animated: true, completion: nil)
+                                          fatalError()
         }))
-        
-        self.present(alert, animated:true, completion: nil)
+
+        present(alert, animated: true, completion: nil)
     }
 }
