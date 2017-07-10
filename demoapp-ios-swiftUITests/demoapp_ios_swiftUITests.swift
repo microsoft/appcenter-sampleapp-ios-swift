@@ -36,7 +36,7 @@ class demoapp_ios_swiftUITests: XCTestCase {
         app.swipeLeft()
         app.swipeLeft()
         
-        // Onboarding should no longer be displayed
+        // The crash button is pressed, app swipe should no longer be allowed.
         XCTAssertFalse(app.isDisplayingUntilCrash)
      }
 
