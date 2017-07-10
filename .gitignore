@@ -23,9 +23,11 @@ xcuserdata/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
+Podfile.lock
 
 ## Obj-C/Swift specific
 *.hmap
 *.ipa
 *.dSYM.zip
 *.dSYM
+demoapp-ios-swift.xcworkspace
