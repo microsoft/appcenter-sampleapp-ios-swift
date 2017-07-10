@@ -9,6 +9,7 @@
 import XCTest
 
 class demoapp_ios_swiftUITests: XCTestCase {
+    var app:XCUIApplication
 
     override func setUp() {
         super.setUp()
@@ -18,10 +19,26 @@ class demoapp_ios_swiftUITests: XCTestCase {
         // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
         // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
-        XCUIApplication().launch()
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        app = XCUIApplication()
+        // enable app to reset state.
+        app.launchArguments.append("--uitesting")
     }
+    
+    func testGoingUntilPressingCrashButton() {
+        app.launch()
+        
+        // Make sure the app displays the first page to swipe from.
+        XCTAssertTrue(app.isDisplayingUntilCrash)
+        
+        // Swipe towards the left four times to get to crashes
+        app.swipeLeft()
+        app.swipeLeft()
+        app.swipeLeft()
+        app.swipeLeft()
+        
+        // Onboarding should no longer be displayed
+        XCTAssertFalse(app.isDisplayingUntilCrash)
+     }
 
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.

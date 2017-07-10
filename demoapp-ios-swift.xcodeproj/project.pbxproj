@@ -16,6 +16,14 @@
 		265587131EF88770001914FC /* demoapp_ios_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265587121EF88770001914FC /* demoapp_ios_swiftUITests.swift */; };
 		267EDE4A1EFC7C5700AA5444 /* CrashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267EDE491EFC7C5700AA5444 /* CrashViewController.swift */; };
 		267EDE4C1EFC8AF600AA5444 /* AnalyticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267EDE4B1EFC8AF600AA5444 /* AnalyticsViewController.swift */; };
+		F048A5611F13726F00F8654E /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F048A5601F13726F00F8654E /* OnboardingViewController.swift */; };
+		F048A5691F13732B00F8654E /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F048A5681F13732B00F8654E /* IntentsUI.framework */; };
+		F048A56C1F13732B00F8654E /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F048A56B1F13732B00F8654E /* IntentViewController.swift */; };
+		F048A56F1F13732B00F8654E /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F048A56D1F13732B00F8654E /* MainInterface.storyboard */; };
+		F048A5731F13732B00F8654E /* XCUIAppTest.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F048A5661F13732B00F8654E /* XCUIAppTest.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F048A57F1F13740400F8654E /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F048A57E1F13740400F8654E /* ActionViewController.swift */; };
+		F048A5821F13740400F8654E /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F048A5801F13740400F8654E /* MainInterface.storyboard */; };
+		F048A5861F13740400F8654E /* XCUIApplication.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F048A57C1F13740400F8654E /* XCUIApplication.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +41,36 @@
 			remoteGlobalIDString = 265586EC1EF88770001914FC;
 			remoteInfo = "demoapp-ios-swift";
 		};
+		F048A5711F13732B00F8654E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 265586E51EF88770001914FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F048A5651F13732B00F8654E;
+			remoteInfo = XCUIAppTest;
+		};
+		F048A5841F13740400F8654E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 265586E51EF88770001914FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F048A57B1F13740400F8654E;
+			remoteInfo = XCUIApplication;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F048A5771F13732B00F8654E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F048A5861F13740400F8654E /* XCUIApplication.appex in Embed App Extensions */,
+				F048A5731F13732B00F8654E /* XCUIAppTest.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		264044061F06D794002657EC /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +88,16 @@
 		265587141EF88770001914FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		267EDE491EFC7C5700AA5444 /* CrashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrashViewController.swift; sourceTree = "<group>"; };
 		267EDE4B1EFC8AF600AA5444 /* AnalyticsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsViewController.swift; sourceTree = "<group>"; };
+		F048A5601F13726F00F8654E /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		F048A5661F13732B00F8654E /* XCUIAppTest.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = XCUIAppTest.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F048A5681F13732B00F8654E /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		F048A56B1F13732B00F8654E /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		F048A56E1F13732B00F8654E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		F048A5701F13732B00F8654E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F048A57C1F13740400F8654E /* XCUIApplication.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = XCUIApplication.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F048A57E1F13740400F8654E /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		F048A5811F13740400F8654E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		F048A5831F13740400F8654E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +122,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F048A5631F13732B00F8654E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F048A5691F13732B00F8654E /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F048A5791F13740400F8654E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,6 +146,9 @@
 				265586EF1EF88770001914FC /* demoapp-ios-swift */,
 				265587061EF88770001914FC /* demoapp-ios-swiftTests */,
 				265587111EF88770001914FC /* demoapp-ios-swiftUITests */,
+				F048A56A1F13732B00F8654E /* XCUIAppTest */,
+				F048A57D1F13740400F8654E /* XCUIApplication */,
+				F048A5671F13732B00F8654E /* Frameworks */,
 				265586EE1EF88770001914FC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +159,8 @@
 				265586ED1EF88770001914FC /* demoapp-ios-swift.app */,
 				265587031EF88770001914FC /* demoapp-ios-swiftTests.xctest */,
 				2655870E1EF88770001914FC /* demoapp-ios-swiftUITests.xctest */,
+				F048A5661F13732B00F8654E /* XCUIAppTest.appex */,
+				F048A57C1F13740400F8654E /* XCUIApplication.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,6 +173,7 @@
 				265586F01EF88770001914FC /* AppDelegate.swift */,
 				267EDE491EFC7C5700AA5444 /* CrashViewController.swift */,
 				264044061F06D794002657EC /* RootViewController.swift */,
+				F048A5601F13726F00F8654E /* OnboardingViewController.swift */,
 				265586F91EF88770001914FC /* Assets.xcassets */,
 				265586FB1EF88770001914FC /* LaunchScreen.storyboard */,
 				265586F61EF88770001914FC /* Main.storyboard */,
@@ -131,6 +199,34 @@
 			path = "demoapp-ios-swiftUITests";
 			sourceTree = "<group>";
 		};
+		F048A5671F13732B00F8654E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F048A5681F13732B00F8654E /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F048A56A1F13732B00F8654E /* XCUIAppTest */ = {
+			isa = PBXGroup;
+			children = (
+				F048A56B1F13732B00F8654E /* IntentViewController.swift */,
+				F048A56D1F13732B00F8654E /* MainInterface.storyboard */,
+				F048A5701F13732B00F8654E /* Info.plist */,
+			);
+			path = XCUIAppTest;
+			sourceTree = "<group>";
+		};
+		F048A57D1F13740400F8654E /* XCUIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				F048A57E1F13740400F8654E /* ActionViewController.swift */,
+				F048A5801F13740400F8654E /* MainInterface.storyboard */,
+				F048A5831F13740400F8654E /* Info.plist */,
+			);
+			path = XCUIApplication;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,10 +237,13 @@
 				265586E91EF88770001914FC /* Sources */,
 				265586EA1EF88770001914FC /* Frameworks */,
 				265586EB1EF88770001914FC /* Resources */,
+				F048A5771F13732B00F8654E /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F048A5721F13732B00F8654E /* PBXTargetDependency */,
+				F048A5851F13740400F8654E /* PBXTargetDependency */,
 			);
 			name = "demoapp-ios-swift";
 			productName = "demoapp-ios-swift";
@@ -187,6 +286,40 @@
 			productReference = 2655870E1EF88770001914FC /* demoapp-ios-swiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		F048A5651F13732B00F8654E /* XCUIAppTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F048A5741F13732B00F8654E /* Build configuration list for PBXNativeTarget "XCUIAppTest" */;
+			buildPhases = (
+				F048A5621F13732B00F8654E /* Sources */,
+				F048A5631F13732B00F8654E /* Frameworks */,
+				F048A5641F13732B00F8654E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCUIAppTest;
+			productName = XCUIAppTest;
+			productReference = F048A5661F13732B00F8654E /* XCUIAppTest.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F048A57B1F13740400F8654E /* XCUIApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F048A5871F13740400F8654E /* Build configuration list for PBXNativeTarget "XCUIApplication" */;
+			buildPhases = (
+				F048A5781F13740400F8654E /* Sources */,
+				F048A5791F13740400F8654E /* Frameworks */,
+				F048A57A1F13740400F8654E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCUIApplication;
+			productName = XCUIApplication;
+			productReference = F048A57C1F13740400F8654E /* XCUIApplication.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -217,6 +350,16 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 265586EC1EF88770001914FC;
 					};
+					F048A5651F13732B00F8654E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L4RARDNZ2Y;
+						ProvisioningStyle = Automatic;
+					};
+					F048A57B1F13740400F8654E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L4RARDNZ2Y;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 265586E81EF88770001914FC /* Build configuration list for PBXProject "demoapp-ios-swift" */;
@@ -235,6 +378,8 @@
 				265586EC1EF88770001914FC /* demoapp-ios-swift */,
 				265587021EF88770001914FC /* demoapp-ios-swiftTests */,
 				2655870D1EF88770001914FC /* demoapp-ios-swiftUITests */,
+				F048A5651F13732B00F8654E /* XCUIAppTest */,
+				F048A57B1F13740400F8654E /* XCUIApplication */,
 			);
 		};
 /* End PBXProject section */
@@ -264,6 +409,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F048A5641F13732B00F8654E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F048A56F1F13732B00F8654E /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F048A57A1F13740400F8654E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F048A5821F13740400F8654E /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -273,6 +434,7 @@
 			files = (
 				264044071F06D794002657EC /* RootViewController.swift in Sources */,
 				265586F11EF88770001914FC /* AppDelegate.swift in Sources */,
+				F048A5611F13726F00F8654E /* OnboardingViewController.swift in Sources */,
 				267EDE4A1EFC7C5700AA5444 /* CrashViewController.swift in Sources */,
 				267EDE4C1EFC8AF600AA5444 /* AnalyticsViewController.swift in Sources */,
 			);
@@ -294,6 +456,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F048A5621F13732B00F8654E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F048A56C1F13732B00F8654E /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F048A5781F13740400F8654E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F048A57F1F13740400F8654E /* ActionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -306,6 +484,16 @@
 			isa = PBXTargetDependency;
 			target = 265586EC1EF88770001914FC /* demoapp-ios-swift */;
 			targetProxy = 2655870F1EF88770001914FC /* PBXContainerItemProxy */;
+		};
+		F048A5721F13732B00F8654E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F048A5651F13732B00F8654E /* XCUIAppTest */;
+			targetProxy = F048A5711F13732B00F8654E /* PBXContainerItemProxy */;
+		};
+		F048A5851F13740400F8654E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F048A57B1F13740400F8654E /* XCUIApplication */;
+			targetProxy = F048A5841F13740400F8654E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -324,6 +512,22 @@
 				265586FC1EF88770001914FC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F048A56D1F13732B00F8654E /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F048A56E1F13732B00F8654E /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		F048A5801F13740400F8654E /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F048A5811F13740400F8654E /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -427,6 +631,7 @@
 		265587181EF88771001914FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L4RARDNZ2Y;
 				INFOPLIST_FILE = "demoapp-ios-swift/Info.plist";
@@ -441,6 +646,7 @@
 		265587191EF88771001914FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L4RARDNZ2Y;
 				INFOPLIST_FILE = "demoapp-ios-swift/Info.plist";
@@ -506,6 +712,58 @@
 			};
 			name = Release;
 		};
+		F048A5751F13732B00F8654E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L4RARDNZ2Y;
+				INFOPLIST_FILE = XCUIAppTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tina.demoapp-ios-swift.XCUIAppTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F048A5761F13732B00F8654E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L4RARDNZ2Y;
+				INFOPLIST_FILE = XCUIAppTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tina.demoapp-ios-swift.XCUIAppTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F048A5881F13740400F8654E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L4RARDNZ2Y;
+				INFOPLIST_FILE = XCUIApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tina.demoapp-ios-swift.XCUIApplication";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F048A5891F13740400F8654E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L4RARDNZ2Y;
+				INFOPLIST_FILE = XCUIApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tina.demoapp-ios-swift.XCUIApplication";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -544,6 +802,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		F048A5741F13732B00F8654E /* Build configuration list for PBXNativeTarget "XCUIAppTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F048A5751F13732B00F8654E /* Debug */,
+				F048A5761F13732B00F8654E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F048A5871F13740400F8654E /* Build configuration list for PBXNativeTarget "XCUIApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F048A5881F13740400F8654E /* Debug */,
+				F048A5891F13740400F8654E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
