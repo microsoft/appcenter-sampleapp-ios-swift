@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		264044071F06D794002657EC /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264044061F06D794002657EC /* RootViewController.swift */; };
-		265586F11EF88770001914FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265586F01EF88770001914FC /* AppDelegate.swift */; };
 		265586F81EF88770001914FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265586F61EF88770001914FC /* Main.storyboard */; };
 		265586FA1EF88770001914FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 265586F91EF88770001914FC /* Assets.xcassets */; };
 		265586FD1EF88770001914FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265586FB1EF88770001914FC /* LaunchScreen.storyboard */; };
@@ -24,12 +23,6 @@
 		F048A57F1F13740400F8654E /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F048A57E1F13740400F8654E /* ActionViewController.swift */; };
 		F048A5821F13740400F8654E /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F048A5801F13740400F8654E /* MainInterface.storyboard */; };
 		F048A5861F13740400F8654E /* XCUIApplication.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F048A57C1F13740400F8654E /* XCUIApplication.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		F048A5911F13F25600F8654E /* MobileCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F048A58B1F13F25600F8654E /* MobileCenter.framework */; };
-		F048A5921F13F25600F8654E /* MobileCenterAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F048A58C1F13F25600F8654E /* MobileCenterAnalytics.framework */; };
-		F048A5931F13F25600F8654E /* MobileCenterCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F048A58D1F13F25600F8654E /* MobileCenterCrashes.framework */; };
-		F048A5941F13F25600F8654E /* MobileCenterDistribute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F048A58E1F13F25600F8654E /* MobileCenterDistribute.framework */; };
-		F048A5951F13F25600F8654E /* MobileCenterDistributeResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F048A58F1F13F25600F8654E /* MobileCenterDistributeResources.bundle */; };
-		F048A5961F13F25600F8654E /* MobileCenterPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F048A5901F13F25600F8654E /* MobileCenterPush.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,7 +74,6 @@
 /* Begin PBXFileReference section */
 		264044061F06D794002657EC /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		265586ED1EF88770001914FC /* demoapp-ios-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "demoapp-ios-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		265586F01EF88770001914FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		265586F71EF88770001914FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		265586F91EF88770001914FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		265586FC1EF88770001914FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -104,12 +96,6 @@
 		F048A57E1F13740400F8654E /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 		F048A5811F13740400F8654E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		F048A5831F13740400F8654E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F048A58B1F13F25600F8654E /* MobileCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenter.framework; path = "MobileCenter-SDK-iOS/MobileCenter.framework"; sourceTree = "<group>"; };
-		F048A58C1F13F25600F8654E /* MobileCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterAnalytics.framework; path = "MobileCenter-SDK-iOS/MobileCenterAnalytics.framework"; sourceTree = "<group>"; };
-		F048A58D1F13F25600F8654E /* MobileCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterCrashes.framework; path = "MobileCenter-SDK-iOS/MobileCenterCrashes.framework"; sourceTree = "<group>"; };
-		F048A58E1F13F25600F8654E /* MobileCenterDistribute.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterDistribute.framework; path = "MobileCenter-SDK-iOS/MobileCenterDistribute.framework"; sourceTree = "<group>"; };
-		F048A58F1F13F25600F8654E /* MobileCenterDistributeResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MobileCenterDistributeResources.bundle; path = "MobileCenter-SDK-iOS/MobileCenterDistributeResources.bundle"; sourceTree = "<group>"; };
-		F048A5901F13F25600F8654E /* MobileCenterPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterPush.framework; path = "MobileCenter-SDK-iOS/MobileCenterPush.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,11 +103,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F048A5961F13F25600F8654E /* MobileCenterPush.framework in Frameworks */,
-				F048A5941F13F25600F8654E /* MobileCenterDistribute.framework in Frameworks */,
-				F048A5921F13F25600F8654E /* MobileCenterAnalytics.framework in Frameworks */,
-				F048A5931F13F25600F8654E /* MobileCenterCrashes.framework in Frameworks */,
-				F048A5911F13F25600F8654E /* MobileCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,7 +168,6 @@
 			children = (
 				265586FE1EF88770001914FC /* Info.plist */,
 				267EDE4B1EFC8AF600AA5444 /* AnalyticsViewController.swift */,
-				265586F01EF88770001914FC /* AppDelegate.swift */,
 				267EDE491EFC7C5700AA5444 /* CrashViewController.swift */,
 				264044061F06D794002657EC /* RootViewController.swift */,
 				F048A5601F13726F00F8654E /* OnboardingViewController.swift */,
@@ -220,12 +200,6 @@
 			isa = PBXGroup;
 			children = (
 				F048A5681F13732B00F8654E /* IntentsUI.framework */,
-				F048A58B1F13F25600F8654E /* MobileCenter.framework */,
-				F048A58C1F13F25600F8654E /* MobileCenterAnalytics.framework */,
-				F048A58D1F13F25600F8654E /* MobileCenterCrashes.framework */,
-				F048A58E1F13F25600F8654E /* MobileCenterDistribute.framework */,
-				F048A58F1F13F25600F8654E /* MobileCenterDistributeResources.bundle */,
-				F048A5901F13F25600F8654E /* MobileCenterPush.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -413,7 +387,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				265586FD1EF88770001914FC /* LaunchScreen.storyboard in Resources */,
-				F048A5951F13F25600F8654E /* MobileCenterDistributeResources.bundle in Resources */,
 				265586FA1EF88770001914FC /* Assets.xcassets in Resources */,
 				265586F81EF88770001914FC /* Main.storyboard in Resources */,
 			);
@@ -457,7 +430,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				264044071F06D794002657EC /* RootViewController.swift in Sources */,
-				265586F11EF88770001914FC /* AppDelegate.swift in Sources */,
 				F048A5611F13726F00F8654E /* OnboardingViewController.swift in Sources */,
 				267EDE4A1EFC7C5700AA5444 /* CrashViewController.swift in Sources */,
 				267EDE4C1EFC8AF600AA5444 /* AnalyticsViewController.swift in Sources */,
