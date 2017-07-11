@@ -37,7 +37,6 @@ class RootViewController: UIPageViewController, UIPageViewControllerDelegate, UI
     }
 
     // MARK: - UIPageViewController navigation functions
-    // taken from https://stackoverflow.com/questions/17779735/how-do-i-make-the-bottom-bar-with-dots-of-a-uipageviewcontroller-translucent
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
 
