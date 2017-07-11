@@ -13,5 +13,6 @@ target 'demoapp-ios-swift' do
     inherit! :search_paths
     # Pods for testing
     pod ‘VSMobileCenterExtensions’
+  end
 
 end
