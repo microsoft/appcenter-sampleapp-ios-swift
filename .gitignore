@@ -23,6 +23,7 @@ xcuserdata/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
+Podfile.lock
 
 ## Obj-C/Swift specific
 *.hmap
