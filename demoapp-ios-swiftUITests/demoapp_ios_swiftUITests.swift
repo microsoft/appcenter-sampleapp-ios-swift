@@ -1,10 +1,3 @@
-//
-//  demoapp_ios_swiftUITests.swift
-//  demoapp-ios-swiftUITests
-//
-//  Created by Sherin Shibu on 7/10/17.
-//  Copyright © 2017 Tina. All rights reserved.
-//
 
 import XCTest
 
@@ -15,7 +8,6 @@ class demoapp_ios_swiftUITests: XCTestCase {
         // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
         app.launch()
-        
     }
 
     override func tearDown() {
