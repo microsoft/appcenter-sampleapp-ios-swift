@@ -4,9 +4,6 @@ target 'demoapp-ios-swift' do
   pod 'MobileCenter’
   pod 'MobileCenter/Push'
 
-  target 'demoapp-ios-swiftTests' do
-    inherit! :search_paths
-  end
 
   
   target ‘demoapp-ios-swiftUITests’ do

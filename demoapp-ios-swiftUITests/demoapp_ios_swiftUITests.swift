@@ -9,16 +9,13 @@
 import XCTest
 
 class demoapp_ios_swiftUITests: XCTestCase {
-
+  let app = XCUIApplication()
     override func setUp() {
         super.setUp()
-
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-
         // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
-        // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
-        XCUIApplication().launch()
+        app.launch()
+        
     }
 
     override func tearDown() {
@@ -26,7 +23,10 @@ class demoapp_ios_swiftUITests: XCTestCase {
         super.tearDown()
     }
 
-    func testTrue() {
-        XCTAssert(true)
+    func testSwipeUntilCrashesPage() {
+        // Assert that the crash button exists
+        let window = app.windows.element(boundBy: 0)
+        let fatalErrorButtonQuery = app.buttons.matching(identifier: "fatalErrorButton")
+        XCTAssert(window.frame.contains(fatalErrorButtonQuery.accessibilityFrame))
     }
 }

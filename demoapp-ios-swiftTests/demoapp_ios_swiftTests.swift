@@ -21,9 +21,4 @@ class demoapp_ios_swiftTests: XCTestCase {
         super.tearDown()
     }
 
-    func testCrashViewControllerLoads() {
-        // test to ensure that the crash view controller loads.
-        let vc = CrashViewController()
-        XCTAssertNotNil(vc.view, "View did not load for CrashViewController.")
-    }
 }
