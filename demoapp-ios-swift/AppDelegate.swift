@@ -12,11 +12,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_: UIApplication, didFinishLaunchingWithOptions _: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        MSMobileCenter.start("<APP SECRET HERE>", withServices:[
+        MSMobileCenter.start("<APP SECRET HERE>", withServices: [
             MSAnalytics.self,
             MSCrashes.self,
-            MSPush.self
-            ])
+            MSPush.self,
+        ])
         return true
     }
 
