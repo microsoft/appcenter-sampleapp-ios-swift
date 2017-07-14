@@ -33,7 +33,7 @@
 		109CC7897CE6D2CDDF3033A9 /* Pods-demoapp-ios-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demoapp-ios-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-demoapp-ios-swift/Pods-demoapp-ios-swift.debug.xcconfig"; sourceTree = "<group>"; };
 		161E4DF3040A359BED6AF7B3 /* Pods-demoapp-ios-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demoapp-ios-swiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-demoapp-ios-swiftUITests/Pods-demoapp-ios-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 		264044061F06D794002657EC /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		265586ED1EF88770001914FC /* demoapp-ios-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "demoapp-ios-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		265586ED1EF88770001914FC /* sampleapp-ios-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sampleapp-ios-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		265586F01EF88770001914FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		265586F71EF88770001914FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		265586F91EF88770001914FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		A54ECBB2A3BC27AD6AF62684 /* Pods_demoapp_ios_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demoapp_ios_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E604B2E5FAE6B78460F4F8 /* Pods-demoapp-ios-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demoapp-ios-swiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-demoapp-ios-swiftUITests/Pods-demoapp-ios-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D5CF14F4588790E07F58E39E /* Pods-demoapp-ios-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demoapp-ios-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-demoapp-ios-swift/Pods-demoapp-ios-swift.release.xcconfig"; sourceTree = "<group>"; };
-		F02E65BB1F1454DC00F657C9 /* demoapp-ios-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "demoapp-ios-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02E65BB1F1454DC00F657C9 /* sampleapp-ios-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sampleapp-ios-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02E65BD1F1454DC00F657C9 /* demoapp_ios_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoapp_ios_swiftUITests.swift; sourceTree = "<group>"; };
 		F02E65BF1F1454DC00F657C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0DDF9751F157DCF00530C9B /* demoapp-ios-swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "demoapp-ios-swift.entitlements"; sourceTree = "<group>"; };
@@ -85,8 +85,8 @@
 		265586EE1EF88770001914FC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				265586ED1EF88770001914FC /* demoapp-ios-swift.app */,
-				F02E65BB1F1454DC00F657C9 /* demoapp-ios-swiftUITests.xctest */,
+				265586ED1EF88770001914FC /* sampleapp-ios-swift.app */,
+				F02E65BB1F1454DC00F657C9 /* sampleapp-ios-swiftUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,9 +139,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		265586EC1EF88770001914FC /* demoapp-ios-swift */ = {
+		265586EC1EF88770001914FC /* sampleapp-ios-swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 265587171EF88771001914FC /* Build configuration list for PBXNativeTarget "demoapp-ios-swift" */;
+			buildConfigurationList = 265587171EF88771001914FC /* Build configuration list for PBXNativeTarget "sampleapp-ios-swift" */;
 			buildPhases = (
 				4102C46DF1D96062A1422176 /* [CP] Check Pods Manifest.lock */,
 				265586E91EF88770001914FC /* Sources */,
@@ -154,14 +154,14 @@
 			);
 			dependencies = (
 			);
-			name = "demoapp-ios-swift";
+			name = "sampleapp-ios-swift";
 			productName = "demoapp-ios-swift";
-			productReference = 265586ED1EF88770001914FC /* demoapp-ios-swift.app */;
+			productReference = 265586ED1EF88770001914FC /* sampleapp-ios-swift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F02E65BA1F1454DC00F657C9 /* demoapp-ios-swiftUITests */ = {
+		F02E65BA1F1454DC00F657C9 /* sampleapp-ios-swiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F02E65C21F1454DC00F657C9 /* Build configuration list for PBXNativeTarget "demoapp-ios-swiftUITests" */;
+			buildConfigurationList = F02E65C21F1454DC00F657C9 /* Build configuration list for PBXNativeTarget "sampleapp-ios-swiftUITests" */;
 			buildPhases = (
 				AE57BC44F960C4D65B632921 /* [CP] Check Pods Manifest.lock */,
 				F02E65B71F1454DC00F657C9 /* Sources */,
@@ -175,9 +175,9 @@
 			dependencies = (
 				F02E65C11F1454DC00F657C9 /* PBXTargetDependency */,
 			);
-			name = "demoapp-ios-swiftUITests";
+			name = "sampleapp-ios-swiftUITests";
 			productName = "demoapp-ios-swiftUITests";
-			productReference = F02E65BB1F1454DC00F657C9 /* demoapp-ios-swiftUITests.xctest */;
+			productReference = F02E65BB1F1454DC00F657C9 /* sampleapp-ios-swiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 265586E81EF88770001914FC /* Build configuration list for PBXProject "demoapp-ios-swift" */;
+			buildConfigurationList = 265586E81EF88770001914FC /* Build configuration list for PBXProject "sampleapp-ios-swift" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -219,8 +219,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				265586EC1EF88770001914FC /* demoapp-ios-swift */,
-				F02E65BA1F1454DC00F657C9 /* demoapp-ios-swiftUITests */,
+				265586EC1EF88770001914FC /* sampleapp-ios-swift */,
+				F02E65BA1F1454DC00F657C9 /* sampleapp-ios-swiftUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -372,7 +372,7 @@
 /* Begin PBXTargetDependency section */
 		F02E65C11F1454DC00F657C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 265586EC1EF88770001914FC /* demoapp-ios-swift */;
+			target = 265586EC1EF88770001914FC /* sampleapp-ios-swift */;
 			targetProxy = F02E65C01F1454DC00F657C9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -558,7 +558,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		265586E81EF88770001914FC /* Build configuration list for PBXProject "demoapp-ios-swift" */ = {
+		265586E81EF88770001914FC /* Build configuration list for PBXProject "sampleapp-ios-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				265587151EF88771001914FC /* Debug */,
@@ -567,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		265587171EF88771001914FC /* Build configuration list for PBXNativeTarget "demoapp-ios-swift" */ = {
+		265587171EF88771001914FC /* Build configuration list for PBXNativeTarget "sampleapp-ios-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				265587181EF88771001914FC /* Debug */,
@@ -576,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F02E65C21F1454DC00F657C9 /* Build configuration list for PBXNativeTarget "demoapp-ios-swiftUITests" */ = {
+		F02E65C21F1454DC00F657C9 /* Build configuration list for PBXNativeTarget "sampleapp-ios-swiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F02E65C31F1454DC00F657C9 /* Debug */,
