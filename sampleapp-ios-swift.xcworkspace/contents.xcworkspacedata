@@ -2,12 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/sabrinajiang/Desktop/sampleapp-ios-swift/sampleapp-ios-swift.xcodeproj">
+      location = "group:sampleapp-ios-swift.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:sampleapp-ios-swift.xcodeproj">
    </FileRef>
 </Workspace>
