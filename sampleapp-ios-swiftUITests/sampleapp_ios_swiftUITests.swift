@@ -1,7 +1,7 @@
 
 import XCTest
 
-class demoapp_ios_swiftUITests: XCTestCase {
+class sampleapp_ios_swiftUITests: XCTestCase {
     let app = XCUIApplication()
     override func setUp() {
         super.setUp()
