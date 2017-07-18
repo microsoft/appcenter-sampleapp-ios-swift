@@ -55,7 +55,7 @@ class AnalyticsViewController: UIViewController {
         alert.view.tintColor = UIColor.black
 
         // Yellow button
-        alert.addAction(UIAlertAction(title: "Yellow",
+        alert.addAction(UIAlertAction(title: "💛 Yellow",
                                       style: .default,
                                       handler: { _ in alert.dismiss(animated: true, completion: nil)
         }))
@@ -63,7 +63,7 @@ class AnalyticsViewController: UIViewController {
         MSAnalytics.trackEvent("Color event", withProperties: ["Color": "Yellow"])
 
         // Blue button
-        alert.addAction(UIAlertAction(title: "Blue",
+        alert.addAction(UIAlertAction(title: "💙 Blue",
                                       style: .default,
                                       handler: { _ in alert.dismiss(animated: true, completion: nil)
         }))
@@ -71,7 +71,7 @@ class AnalyticsViewController: UIViewController {
         MSAnalytics.trackEvent("Color event", withProperties: ["Color": "Blue"])
 
         // Red button
-        alert.addAction(UIAlertAction(title: "Red",
+        alert.addAction(UIAlertAction(title: "❤️ Red",
                                       style: .default,
                                       handler: { _ in alert.dismiss(animated: true, completion: nil)
         }))
