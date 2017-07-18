@@ -58,25 +58,28 @@ class AnalyticsViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "Yellow",
                                       style: .default,
                                       handler: { _ in alert.dismiss(animated: true, completion: nil)
+                                          MSAnalytics.trackEvent("Color event", withProperties: ["Color": "Yellow"])
+
         }))
         // sent yellow event here
-        MSAnalytics.trackEvent("Color event", withProperties: ["Color": "Yellow"])
 
         // Blue button
         alert.addAction(UIAlertAction(title: "Blue",
                                       style: .default,
                                       handler: { _ in alert.dismiss(animated: true, completion: nil)
+                                          MSAnalytics.trackEvent("Color event", withProperties: ["Color": "Blue"])
+
         }))
         // sent blue event here
-        MSAnalytics.trackEvent("Color event", withProperties: ["Color": "Blue"])
 
         // Red button
         alert.addAction(UIAlertAction(title: "Red",
                                       style: .default,
                                       handler: { _ in alert.dismiss(animated: true, completion: nil)
+                                          MSAnalytics.trackEvent("Color event", withProperties: ["Color": "Red"])
+
         }))
         // sent red event here
-        MSAnalytics.trackEvent("Color event", withProperties: ["Color": "Red"])
 
         present(alert, animated: true, completion: nil)
     }
