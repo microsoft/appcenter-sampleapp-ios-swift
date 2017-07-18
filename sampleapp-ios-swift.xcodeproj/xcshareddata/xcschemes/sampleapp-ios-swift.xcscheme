@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "265586EC1EF88770001914FC"
-               BuildableName = "demoapp-ios-swift.app"
-               BlueprintName = "demoapp-ios-swift"
-               ReferencedContainer = "container:demoapp-ios-swift.xcodeproj">
+               BuildableName = "sampleapp-ios-swift.app"
+               BlueprintName = "sampleapp-ios-swift"
+               ReferencedContainer = "container:sample-ios-swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "265587021EF88770001914FC"
-               BuildableName = "demoapp-ios-swiftTests.xctest"
-               BlueprintName = "demoapp-ios-swiftTests"
-               ReferencedContainer = "container:demoapp-ios-swift.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2655870D1EF88770001914FC"
-               BuildableName = "demoapp-ios-swiftUITests.xctest"
-               BlueprintName = "demoapp-ios-swiftUITests"
-               ReferencedContainer = "container:demoapp-ios-swift.xcodeproj">
+               BlueprintIdentifier = "F02E65BA1F1454DC00F657C9"
+               BuildableName = "sampleapp-ios-swiftUITests.xctest"
+               BlueprintName = "sampleapp-ios-swiftUITests"
+               ReferencedContainer = "container:sampleapp-ios-swift.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "265586EC1EF88770001914FC"
-            BuildableName = "demoapp-ios-swift.app"
-            BlueprintName = "demoapp-ios-swift"
-            ReferencedContainer = "container:demoapp-ios-swift.xcodeproj">
+            BuildableName = "sampleapp-ios-swift.app"
+            BlueprintName = "sampleapp-ios-swift"
+            ReferencedContainer = "container:sampleapp-ios-swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "265586EC1EF88770001914FC"
-            BuildableName = "demoapp-ios-swift.app"
-            BlueprintName = "demoapp-ios-swift"
-            ReferencedContainer = "container:demoapp-ios-swift.xcodeproj">
+            BuildableName = "sampleapp-ios-swift.app"
+            BlueprintName = "sampleapp-ios-swift"
+            ReferencedContainer = "container:sampleapp-ios-swift.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "265586EC1EF88770001914FC"
-            BuildableName = "demoapp-ios-swift.app"
-            BlueprintName = "demoapp-ios-swift"
-            ReferencedContainer = "container:demoapp-ios-swift.xcodeproj">
+            BuildableName = "sampleapp-ios-swift.app"
+            BlueprintName = "sampleapp-ios-swift"
+            ReferencedContainer = "container:sample-ios-swift.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
