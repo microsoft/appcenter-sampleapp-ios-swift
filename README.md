@@ -1,4 +1,6 @@
 # Sample Swift App and Tutorials for Mobile Center
+[Visual Studio Mobile Center](https://www.visualstudio.com/vs/mobile-center) brings together multiple services, commonly used by mobile developers, into a single, integrated product.
+
 This sample Swift app and its collection of tutorials is designed to help you quickly and easily onboard to Mobile Center for iOS.
 
 ## This repository
@@ -19,6 +21,10 @@ Open the .xcworkspace. The app can now build and run. You can learn to use the s
 _Codesigning is optional, but recommended._
 
 When creating a new App ID for this sample app, be sure to check the **Push Notifications** service under the **App Services** section.
+
+To sign the app in Xcode:
+1. Enter the bundle ID under the **General** tab.
+2. Check the **Automatically manage signing** box, and choose your **Team** underneath.
 
 ## Tutorial links
 Begin with the **Getting Started** tutorial. After you've completed that, you can do the rest in the order below, or choose a specific tutorial to follow.
