@@ -7,7 +7,7 @@ This sample iOS app has the Mobile Center SDK already integrated - all you need 
 ## Build the sample app
 After forking the repository, you'll need to install CocoaPods to build the app.
   ```shell
-  sudo gem install CocoaPods
+  sudo gem install cocoapods
   ```
 Next, install the dependencies.
   ```shell
