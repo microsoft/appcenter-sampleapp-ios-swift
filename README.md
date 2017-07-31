@@ -20,10 +20,12 @@ Open the .xcworkspace. The app can now build and run. You can learn to use the s
 ## Codesigning
 _Codesigning is optional, but recommended._
 
+Codesigning will allow you to deploy this sample app to your device. The **Build**, **Distribute**, and **Push** tutorials recommend that you codesign.
+
 When creating a new App ID for this sample app, be sure to check the **Push Notifications** service under the **App Services** section.
 
 To sign the app in Xcode:
-1. Enter the bundle ID under the **General** tab.
+1. Enter the **bundle ID** under the **General** tab.
 2. Check the **Automatically manage signing** box, and choose your **Team** underneath.
 
 ## Tutorial links
