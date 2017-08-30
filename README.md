@@ -31,16 +31,16 @@ To sign the app in Xcode:
 4. Import and select the provisioning profile under **Signing (Debug)** and **Signing (Release)**.
 
 ## Tutorial links
-Begin with the **Getting Started** tutorial. After you've completed that, you can do the rest in the order below, or choose a specific tutorial to follow.
+Begin with the [Getting Started](https://docs.microsoft.com/en-us/mobile-center/quickstarts/ios/getting-started) tutorial. After you've completed that, you can do the rest in the order below, or choose a specific tutorial to follow.
 
 ## Contents
 | Tutorial | Description |
 |:-|:-|
-| Getting Started | Set up the app |
-| Build | Build the app |
-| Test | Run automated UI tests |
-| Distribute| Distribute to a user's device |
-| Crash | Monitor application crashes |
-| Analytics | View user analytics |
-| Push | Send users push notifications |
+| [Getting Started](https://docs.microsoft.com/en-us/mobile-center/quickstarts/ios/getting-started) | Set up the app |
+| [Build](https://docs.microsoft.com/en-us/mobile-center/quickstarts/ios/build) | Build the app |
+| [Test](https://docs.microsoft.com/en-us/mobile-center/quickstarts/ios/test) | Run automated UI tests on real devices |
+| [Distribute](https://docs.microsoft.com/en-us/mobile-center/quickstarts/ios/distribute)| Distribute application to a group of users |
+| [Crashes](https://docs.microsoft.com/en-us/mobile-center/quickstarts/ios/crashes) | Monitor application crashes |
+| [Analytics](https://docs.microsoft.com/en-us/mobile-center/quickstarts/ios/analytics) | View user analytics |
+| [Push](https://docs.microsoft.com/en-us/mobile-center/quickstarts/ios/push) | Send push notifications to your app users |
 
