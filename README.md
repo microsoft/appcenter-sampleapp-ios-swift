@@ -1,4 +1,4 @@
-ample Swift App and Tutorials for Mobile Center
+# Sample Swift App and Tutorials for Mobile Center
 [Visual Studio Mobile Center](https://www.visualstudio.com/vs/mobile-center) brings together multiple services, commonly used by mobile developers, into a single, integrated product.
 
 This sample Swift app and its collection of tutorials is designed to help you quickly and easily onboard to Mobile Center for iOS.
