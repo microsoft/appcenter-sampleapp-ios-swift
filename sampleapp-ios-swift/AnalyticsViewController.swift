@@ -1,6 +1,6 @@
 
 import UIKit
-import MobileCenterAnalytics
+import AppCenterAnalytics
 
 class AnalyticsViewController: UIViewController {
 
