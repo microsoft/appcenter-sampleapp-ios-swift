@@ -1,10 +1,10 @@
-# Sample Swift App and Tutorials for Mobile Center
-[Visual Studio Mobile Center](https://www.visualstudio.com/vs/mobile-center) brings together multiple services, commonly used by mobile developers, into a single, integrated product.
+# Sample Swift App and Tutorials for Visual Studio App Center
+[Visual Studio App Center](https://aka.ms/telgml) brings together multiple services, commonly used by mobile developers, into a single, integrated product.
 
-This sample Swift app and its collection of tutorials is designed to help you quickly and easily onboard to Mobile Center for iOS.
+This sample Swift app and its collection of tutorials is designed to help you quickly and easily onboard to App Center for iOS.
 
 ## This repository
-This sample Swift app has the Mobile Center SDK already integrated - all you need to do is follow the tutorials at the bottom to learn how to use each service.
+This sample Swift app has the App Center SDK already integrated - all you need to do is follow the tutorials at the bottom to learn how to use each service.
 
 ## Build the sample app
 After forking the repository, you'll need to install CocoaPods to build the app.
@@ -15,7 +15,7 @@ Next, install the dependencies.
   ```shell
   pod install
   ```
-Open the .xcworkspace. The app can now build and run. You can learn to use the sample app with Mobile Center with the tutorials below.
+Open the .xcworkspace. The app can now build and run. You can learn to use the sample app with App Center with the tutorials below.
 
 ## Codesigning
 _Codesigning is optional, but recommended._
@@ -36,11 +36,11 @@ Begin with the [Getting Started](https://docs.microsoft.com/en-us/mobile-center/
 ## Contents
 | Tutorial | Description |
 |:-|:-|
-| [Getting Started](https://docs.microsoft.com/en-us/mobile-center/quickstarts/ios/getting-started) | Set up the app |
-| [Build](https://docs.microsoft.com/en-us/mobile-center/quickstarts/ios/build) | Build the app |
-| [Test](https://docs.microsoft.com/en-us/mobile-center/quickstarts/ios/test) | Run automated UI tests on real devices |
-| [Distribute](https://docs.microsoft.com/en-us/mobile-center/quickstarts/ios/distribute)| Distribute application to a group of users |
-| [Crashes](https://docs.microsoft.com/en-us/mobile-center/quickstarts/ios/crashes) | Monitor application crashes |
-| [Analytics](https://docs.microsoft.com/en-us/mobile-center/quickstarts/ios/analytics) | View user analytics |
-| [Push](https://docs.microsoft.com/en-us/mobile-center/quickstarts/ios/push) | Send push notifications to your app users |
+| [Getting Started](https://docs.microsoft.com/en-us/appcenter/quickstarts/ios/getting-started) | Set up the app |
+| [Build](https://docs.microsoft.com/en-us/appcenter/quickstarts/ios/build) | Build the app |
+| [Test](https://docs.microsoft.com/en-us/appcenter/quickstarts/ios/test) | Run automated UI tests on real devices |
+| [Distribute](https://docs.microsoft.com/en-us/appcenter/quickstarts/ios/distribute)| Distribute application to a group of users |
+| [Crashes](https://docs.microsoft.com/en-us/appcenter/quickstarts/ios/crashes) | Monitor application crashes |
+| [Analytics](https://docs.microsoft.com/en-us/appcenter/quickstarts/ios/analytics) | View user analytics |
+| [Push](https://docs.microsoft.com/en-us/appcenter/quickstarts/ios/push) | Send push notifications to your app users |
 
