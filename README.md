@@ -36,11 +36,11 @@ Begin with the [Getting Started](https://docs.microsoft.com/en-us/mobile-center/
 ## Contents
 | Tutorial | Description |
 |:-|:-|
-| [Getting Started](https://docs.microsoft.com/en-us/mobile-center/quickstarts/ios/getting-started) | Set up the app |
-| [Build](https://docs.microsoft.com/en-us/mobile-center/quickstarts/ios/build) | Build the app |
-| [Test](https://docs.microsoft.com/en-us/mobile-center/quickstarts/ios/test) | Run automated UI tests on real devices |
-| [Distribute](https://docs.microsoft.com/en-us/mobile-center/quickstarts/ios/distribute)| Distribute application to a group of users |
-| [Crashes](https://docs.microsoft.com/en-us/mobile-center/quickstarts/ios/crashes) | Monitor application crashes |
-| [Analytics](https://docs.microsoft.com/en-us/mobile-center/quickstarts/ios/analytics) | View user analytics |
-| [Push](https://docs.microsoft.com/en-us/mobile-center/quickstarts/ios/push) | Send push notifications to your app users |
+| [Getting Started](https://docs.microsoft.com/en-us/appcenter/quickstarts/ios/getting-started) | Set up the app |
+| [Build](https://docs.microsoft.com/en-us/appcenter/quickstarts/ios/build) | Build the app |
+| [Test](https://docs.microsoft.com/en-us/appcenter/quickstarts/ios/test) | Run automated UI tests on real devices |
+| [Distribute](https://docs.microsoft.com/en-us/appcenter/quickstarts/ios/distribute)| Distribute application to a group of users |
+| [Crashes](https://docs.microsoft.com/en-us/appcenter/quickstarts/ios/crashes) | Monitor application crashes |
+| [Analytics](https://docs.microsoft.com/en-us/appcenter/quickstarts/ios/analytics) | View user analytics |
+| [Push](https://docs.microsoft.com/en-us/appcenter/quickstarts/ios/push) | Send push notifications to your app users |
 
