@@ -43,7 +43,7 @@ class RootViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         if let scrollView = view.subviews.filter({ $0 is UIScrollView }).first,
             let pageControl = view.subviews.filter({ $0 is UIPageControl }).first {
             scrollView.frame = view.bounds
-            view.bringSubview(toFront: pageControl)
+            view.bringSubviewToFront(pageControl)
         }
     }
 
