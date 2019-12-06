@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // Enabled App Center SDK verbose logs
-        //MSAppCenter.setLogLevel(.verbose)
+        MSAppCenter.setLogLevel(.verbose)
         
         MSAppCenter.start("<APP SECRET HERE>", withServices: [
             MSAnalytics.self,
