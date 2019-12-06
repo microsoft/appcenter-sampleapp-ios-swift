@@ -1,9 +1,12 @@
 
 import UIKit
+import AppCenter
 import AppCenterCrashes
 
 class CrashViewController: UIViewController {
-
+    
+    @IBOutlet weak var setUserIdButton: UIButton!
+    
     @IBOutlet weak var fatalErrorButton: UIButton!
 
     override func viewDidLoad() {
@@ -15,11 +18,32 @@ class CrashViewController: UIViewController {
         navigationController?.navigationBar.isTranslucent = false
     }
 
+    @IBAction func userIdButtonTapped(_: UIButton) {
+        // Set a user id
+        MSAppCenter.setUserId("<CUSTOM USER ID HERE")
+        print("set a user id")
+        presentCustomUserIdAlert()
+    }
+    
     @IBAction func crashButtonTapped(_: UIButton) {
         presentCrashAlert()
     }
 
     // - MARK: Alert Functions
+    
+    func presentCustomUserIdAlert() {
+        let alert = UIAlertController(title: "User ID sent",
+                                      message: "",
+                                      preferredStyle: .alert)
+        
+        // OK Button
+        alert.addAction(UIAlertAction(title: "OK",
+                                      style: .default,
+                                      handler: { _ in alert.dismiss(animated: true, completion: nil)
+        }))
+        present(alert, animated: true, completion: nil)
+    }
+    
     func presentCrashAlert() {
         let alert = UIAlertController(title: "The app will close",
                                       message: "A crash report will be sent when you reopen the app.",

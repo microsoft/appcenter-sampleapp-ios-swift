@@ -13,10 +13,10 @@ class RootViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         services = [
             "welcomeViewController",
             "buildViewController",
+            "analyticsViewController",
+            "crashViewController",
             "testViewController",
             "distributeViewController",
-            "crashViewController",
-            "analyticsViewController",
             "pushViewController",
         ]
 
