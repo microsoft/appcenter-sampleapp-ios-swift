@@ -96,10 +96,10 @@
 			children = (
 				F0DDF9751F157DCF00530C9B /* sampleapp-ios-swift.entitlements */,
 				265586FE1EF88770001914FC /* Info.plist */,
-				267EDE4B1EFC8AF600AA5444 /* AnalyticsViewController.swift */,
 				265586F01EF88770001914FC /* AppDelegate.swift */,
-				267EDE491EFC7C5700AA5444 /* CrashViewController.swift */,
 				264044061F06D794002657EC /* RootViewController.swift */,
+				267EDE491EFC7C5700AA5444 /* CrashViewController.swift */,
+				267EDE4B1EFC8AF600AA5444 /* AnalyticsViewController.swift */,
 				265586F91EF88770001914FC /* Assets.xcassets */,
 				265586FB1EF88770001914FC /* LaunchScreen.storyboard */,
 				265586F61EF88770001914FC /* Main.storyboard */,
@@ -147,6 +147,7 @@
 				265586E91EF88770001914FC /* Sources */,
 				265586EB1EF88770001914FC /* Resources */,
 				002CD8CE89A0929952E0EDA0 /* Frameworks */,
+				D72532EBC60040C5DBE8CDAE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,6 +298,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sampleapp-ios-swiftUITests/Pods-sampleapp-ios-swiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D72532EBC60040C5DBE8CDAE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sampleapp-ios-swift/Pods-sampleapp-ios-swift-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/AppCenter/AppCenterDistributeResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AppCenterDistributeResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sampleapp-ios-swift/Pods-sampleapp-ios-swift-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

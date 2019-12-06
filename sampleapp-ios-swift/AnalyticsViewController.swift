@@ -21,11 +21,11 @@ class AnalyticsViewController: UIViewController {
         switch sender {
         case customEventButton:
             MSAnalytics.trackEvent("Sample event")
-            print("send a custom alert via Cocoapods")
+            print("send a custom event")
             presentCustomEventAlert()
 
         case customColorButton:
-            print("custom color property button pressed")
+            print("send a custom event with color property")
             presentColorPropertyAlert()
 
         default:

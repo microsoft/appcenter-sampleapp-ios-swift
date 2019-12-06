@@ -4,6 +4,7 @@ target 'sampleapp-ios-swift' do
 
   pod 'AppCenter'
   pod 'AppCenter/Push'
+  pod 'AppCenter/Distribute'
   
   target 'sampleapp-ios-swiftUITests' do
     inherit! :search_paths
