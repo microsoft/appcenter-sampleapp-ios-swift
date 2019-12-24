@@ -20,7 +20,8 @@ steps:
     configuration: 'Release'
     sdk: 'iphoneos'
     xcWorkspacePath: '*.xcworkspace'
+    scheme: 'sampleapp-ios-swift'
     xcodeVersion: 'specifyPath'
     xcodeDeveloperDir: '/Applications/Xcode_11.3.app'
-    packageApp: false
+    packageApp: true
     publishJUnitResults: true
