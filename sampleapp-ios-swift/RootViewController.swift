@@ -24,16 +24,11 @@ class RootViewController: UIPageViewController, UIPageViewControllerDelegate, UI
         dataSource = self
 
         // set the starting viewController, in this case it is welcomeViewController
-        let startingViewController = storyboard?.instantiateViewController(withIdentifier: "welcomeViewController")
-        setViewControllers([startingViewController!],
+        let startingViewController = (storyboard?.instantiateViewController(withIdentifier: "welcomeViewController"))!
+        setViewControllers([startingViewController],
                            direction: .forward,
                            animated: true,
                            completion: nil)
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     // MARK: - UIPageViewController navigation functions
@@ -60,9 +55,9 @@ class RootViewController: UIPageViewController, UIPageViewControllerDelegate, UI
 
     func pageViewController(_: UIPageViewController,
                             viewControllerAfter viewController: UIViewController) -> UIViewController? {
-        let index = services.firstIndex(of: viewController.restorationIdentifier!)
-        if index! < services.count - 1 {
-            return storyboard?.instantiateViewController(withIdentifier: services[index! + 1])
+        let index = services.firstIndex(of: viewController.restorationIdentifier!)!
+        if index < services.count - 1 {
+            return storyboard?.instantiateViewController(withIdentifier: services[index + 1])
         } else {
             return nil
         }

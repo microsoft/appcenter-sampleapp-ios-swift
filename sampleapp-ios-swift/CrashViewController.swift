@@ -39,7 +39,7 @@ class CrashViewController: UIViewController {
         // OK Button
         alert.addAction(UIAlertAction(title: "OK",
                                       style: .default,
-                                      handler: { _ in alert.dismiss(animated: true, completion: nil)
+                                      handler: { _ in alert.dismiss(animated: true)
         }))
         present(alert, animated: true, completion: nil)
     }
@@ -52,17 +52,17 @@ class CrashViewController: UIViewController {
         // Cancel Button
         alert.addAction(UIAlertAction(title: "Cancel",
                                       style: UIAlertAction.Style.default,
-                                      handler: { _ in alert.dismiss(animated: true, completion: nil)
+                                      handler: { _ in alert.dismiss(animated: true)
         }))
         // Crash App button
         alert.addAction(UIAlertAction(title: "Crash app",
                                       style: UIAlertAction.Style.destructive,
-                                      handler: { _ in alert.dismiss(animated: true, completion: nil)
+                                      handler: { _ in alert.dismiss(animated: true)
                                           // generate test crash
                                           MSCrashes.generateTestCrash()
                                           fatalError()
         }))
 
-        present(alert, animated: true, completion: nil)
+        present(alert, animated: true)
     }
 }

@@ -13,7 +13,7 @@ class AnalyticsViewController: UIViewController {
         customColorButton.layer.cornerRadius = 10.0
         customEventButton.layer.cornerRadius = 10.0
 
-        navigationController?.navigationBar.barTintColor = UIColor.black
+        navigationController?.navigationBar.barTintColor = .black
         navigationController?.navigationBar.isTranslucent = false
     }
 
@@ -43,9 +43,9 @@ class AnalyticsViewController: UIViewController {
         // OK Button
         alert.addAction(UIAlertAction(title: "OK",
                                       style: .default,
-                                      handler: { _ in alert.dismiss(animated: true, completion: nil)
+                                      handler: { _ in alert.dismiss(animated: true)
         }))
-        present(alert, animated: true, completion: nil)
+        present(alert, animated: true)
     }
 
     func presentColorPropertyAlert() {
@@ -57,24 +57,24 @@ class AnalyticsViewController: UIViewController {
         // Yellow button
         alert.addAction(UIAlertAction(title: "💛 Yellow",
                                       style: .default,
-                                      handler: { _ in alert.dismiss(animated: true, completion: nil)
+                                      handler: { _ in alert.dismiss(animated: true)
                                           MSAnalytics.trackEvent("Color event", withProperties: ["Color": "Yellow"])
         }))
 
         // Blue button
         alert.addAction(UIAlertAction(title: "💙 Blue",
                                       style: .default,
-                                      handler: { _ in alert.dismiss(animated: true, completion: nil)
+                                      handler: { _ in alert.dismiss(animated: true)
                                           MSAnalytics.trackEvent("Color event", withProperties: ["Color": "Blue"])
         }))
 
         // Red button
         alert.addAction(UIAlertAction(title: "❤️ Red",
                                       style: .default,
-                                      handler: { _ in alert.dismiss(animated: true, completion: nil)
+                                      handler: { _ in alert.dismiss(animated: true)
                                           MSAnalytics.trackEvent("Color event", withProperties: ["Color": "Red"])
         }))
 
-        present(alert, animated: true, completion: nil)
+        present(alert, animated: true)
     }
 }
