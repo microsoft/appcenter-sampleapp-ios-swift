@@ -1,0 +1,18 @@
+# 1
+price_tier(0)
+# 2
+submission_information({
+    export_compliance_encryption_updated: false,
+    export_compliance_uses_encryption: false,
+    content_rights_contains_third_party_content: false,
+    add_id_info_uses_idfa: false
+})
+# 3
+app_rating_config_path("./fastlane/metadata/app_store_rating_config.json")
+# 4
+ipa("./fastlane/builds/sampleapp-ios-swift.ipa”)
+# 5
+submit_for_review(false)
+# 6
+automatic_release(false)
+force(true)
