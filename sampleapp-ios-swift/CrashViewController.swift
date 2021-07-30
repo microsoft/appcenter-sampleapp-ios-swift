@@ -20,7 +20,7 @@ class CrashViewController: UIViewController {
 
     @IBAction func userIdButtonTapped(_: UIButton) {
         // Set a user id
-        MSAppCenter.setUserId("<CUSTOM USER ID HERE")
+        AppCenter.userId = "<CUSTOM USER ID HERE"
         print("set a user id")
         presentCustomUserIdAlert()
     }
@@ -59,7 +59,7 @@ class CrashViewController: UIViewController {
                                       style: UIAlertAction.Style.destructive,
                                       handler: { _ in alert.dismiss(animated: true)
                                           // generate test crash
-                                          MSCrashes.generateTestCrash()
+                                          Crashes.generateTestCrash()
                                           fatalError()
         }))
 

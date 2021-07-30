@@ -3,7 +3,6 @@ import UIKit
 import AppCenter
 import AppCenterAnalytics
 import AppCenterCrashes
-import AppCenterPush
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,12 +13,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // Enabled App Center SDK verbose logs
-        MSAppCenter.setLogLevel(.verbose)
+        AppCenter.logLevel = .verbose
         
-        MSAppCenter.start("<APP SECRET HERE>", withServices: [
-            MSAnalytics.self,
-            MSCrashes.self,
-            MSPush.self,
+        AppCenter.start(withAppSecret: "<APP SECRET HERE>", services: [
+            Analytics.self,
+            Crashes.self,
         ])
         
         return true

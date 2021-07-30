@@ -1,22 +1,18 @@
 PODS:
-  - AppCenter (2.5.1):
-    - AppCenter/Analytics (= 2.5.1)
-    - AppCenter/Crashes (= 2.5.1)
-  - AppCenter/Analytics (2.5.1):
+  - AppCenter (4.2.0):
+    - AppCenter/Analytics (= 4.2.0)
+    - AppCenter/Crashes (= 4.2.0)
+  - AppCenter/Analytics (4.2.0):
     - AppCenter/Core
-  - AppCenter/Core (2.5.1)
-  - AppCenter/Crashes (2.5.1):
-    - AppCenter/Core
-  - AppCenter/Distribute (2.5.1):
-    - AppCenter/Core
-  - AppCenter/Push (2.5.1):
+  - AppCenter/Core (4.2.0)
+  - AppCenter/Crashes (4.2.0):
     - AppCenter/Core
   - VSMobileCenterExtensions (0.9.1)
 
 DEPENDENCIES:
   - AppCenter
-  - AppCenter/Distribute
-  - AppCenter/Push
+  - AppCenter/Analytics
+  - AppCenter/Crashes
   - VSMobileCenterExtensions
 
 SPEC REPOS:
@@ -25,9 +21,9 @@ SPEC REPOS:
     - VSMobileCenterExtensions
 
 SPEC CHECKSUMS:
-  AppCenter: fddcbac6e4baae3d93a196ceb0bfe0e4ce407dec
+  AppCenter: 87ef6eefd8ade4df59e88951288587429f3dd2a5
   VSMobileCenterExtensions: 5f8b4b284f6817c1d58e860bf7ad0945f1244733
 
-PODFILE CHECKSUM: 88dda23b55749ff77cb7e2a56e89be563b7f6a81
+PODFILE CHECKSUM: afd045c8011878a0b57ece97bc75b3ddd27a3cb0
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.10.1
