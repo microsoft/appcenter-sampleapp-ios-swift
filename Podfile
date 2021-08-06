@@ -1,11 +1,10 @@
 target 'sampleapp-ios-swift' do
-  platform :ios, '10.0'
   use_frameworks!
 
   pod 'AppCenter'
-  pod 'AppCenter/Push'
-  pod 'AppCenter/Distribute'
-  
+  pod 'AppCenter/Analytics'
+  pod 'AppCenter/Crashes'
+
   target 'sampleapp-ios-swiftUITests' do
     inherit! :search_paths
     # Pods for testing
