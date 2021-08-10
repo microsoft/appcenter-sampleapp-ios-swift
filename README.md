@@ -33,9 +33,10 @@ Open the .xcworkspace. The app can now build and run. You can learn to use the s
 
 _Codesigning is optional, but recommended._
 
-Codesigning will allow you to deploy this sample app to your device. The **Build**, **Distribute**, and **Push** tutorials recommend that you codesign.
+Codesigning will allow you to deploy this sample app to your device. The **Build** and **Distribute** tutorials recommend that you codesign.
 
-When creating a new App ID for this sample app, be sure to check the **Push Notifications** service under the **App Services** section.
+When creating a new App ID for this sample app, be sure to check the **
+Notifications** service under the **App Services** section.
 
 To sign the app in Xcode:
 
@@ -58,4 +59,3 @@ Begin with the [Getting Started](https://docs.microsoft.com/en-us/mobile-center/
 | [Distribute](https://docs.microsoft.com/en-us/appcenter/quickstarts/ios/distribute)           | Distribute application to a group of users |
 | [Crashes](https://docs.microsoft.com/en-us/appcenter/quickstarts/ios/crashes)                 | Monitor application crashes                |
 | [Analytics](https://docs.microsoft.com/en-us/appcenter/quickstarts/ios/analytics)             | View user analytics                        |
-| [Push](https://docs.microsoft.com/en-us/appcenter/quickstarts/ios/push)                       | Send push notifications to your app users  |
