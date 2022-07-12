@@ -10,8 +10,8 @@ class AnalyticsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        customColorButton.layer.cornerRadius = 10.0
-        customEventButton.layer.cornerRadius = 10.0
+        customColorButton.layer.cornerRadius = 5.0
+        customEventButton.layer.cornerRadius = 5.0
 
         navigationController?.navigationBar.barTintColor = .black
         navigationController?.navigationBar.isTranslucent = false
