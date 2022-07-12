@@ -147,7 +147,6 @@
 				265586E91EF88770001914FC /* Sources */,
 				265586EB1EF88770001914FC /* Resources */,
 				002CD8CE89A0929952E0EDA0 /* Frameworks */,
-				D72532EBC60040C5DBE8CDAE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -298,24 +297,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sampleapp-ios-swiftUITests/Pods-sampleapp-ios-swiftUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D72532EBC60040C5DBE8CDAE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sampleapp-ios-swift/Pods-sampleapp-ios-swift-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/AppCenter/AppCenterDistributeResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AppCenterDistributeResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sampleapp-ios-swift/Pods-sampleapp-ios-swift-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
